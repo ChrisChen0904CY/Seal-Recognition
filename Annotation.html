@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>印章标注工具（文件夹导入 + 翻页 + 下拉复选 + 标注遮罩 + 分组选择）</title>
+  <title>印章标注工具（分组后清空选择 + 自动加绿色遮罩）</title>
   <style>
     :root { --primary:#2563eb; --border:#e5e7eb; --bg:#f8fafc; --text:#111827; --muted:#6b7280; --success: rgba(16,185,129,0.5); }
     *{box-sizing:border-box}
@@ -146,13 +146,13 @@
 
   <script>
     // ======== 状态 ========
-    let allImages = [];            // 全量图片
-    let filteredImages = [];       // 过滤后的图片（受搜索/复选影响）
-    let selectedIds = new Set();   // 下拉复选选择的 ID（用于过滤）
-    let selectedImageIds = new Set(); // 画廊中勾选用于分组的 ID
-    let page = 1;                  // 当前页
-    let pageSize = 24;             // 每页数量
-    const groups = new Map();      // 分组：name -> Set(ids)
+    let allImages = [];
+    let filteredImages = [];
+    let selectedIds = new Set();       // 搜索下拉勾选
+    let selectedImageIds = new Set();  // 画廊被选中用于分组的图像
+    let page = 1;
+    let pageSize = 24;
+    const groups = new Map();          // name -> Set(ids)
 
     // ======== DOM ========
     const dirPicker = document.getElementById('dirPicker');
@@ -211,7 +211,6 @@
       inpPage.value = String(cur);
       btnPrev.disabled = (cur<=1);
       btnNext.disabled = (cur>=pages);
-      // 按钮可用性
       btnAddToGroup.disabled = (selectedImageIds.size===0 || groups.size===0);
       btnAddNewGroup.disabled = (selectedImageIds.size===0);
     }
@@ -247,7 +246,6 @@
         `;
       }).join('');
 
-      // 绑定选择交互（点击图像或勾选框）
       galleryEl.querySelectorAll('.image-wrap').forEach(el=>{
         el.addEventListener('click', (e)=>{
           const id = e.currentTarget.dataset.id;
@@ -265,7 +263,6 @@
 
     function setSelected(id, val){
       if (val) selectedImageIds.add(id); else selectedImageIds.delete(id);
-      // 同步卡片样式
       const card = galleryEl.querySelector(`.card[data-id="${safeEscape(id)}"]`);
       if (card){ card.classList.toggle('selected', val); }
       updateStat(filteredImages.length, Math.max(1, Math.ceil(filteredImages.length / pageSize)), page);
@@ -279,51 +276,22 @@
       page = cur;
     }
 
-    // ======== 导入文件夹（修复清空后再次导入不触发 change 的问题） ========
-    btnPickDir.addEventListener('click', ()=>{
-      // 关键：每次选择前重置 input 的值，确保同一目录重复选择也能触发 change
-      dirPicker.value = '';
-      dirPicker.click();
-    });
-
+    // ======== 导入 / 清空 ========
+    btnPickDir.addEventListener('click', ()=>{ dirPicker.value=''; dirPicker.click(); });
     dirPicker.addEventListener('change', async (e)=>{
       const files = Array.from(e.target.files || []);
       if (!files.length) return;
       const imgs = files.filter(f=> imageExt.has(getExt(f.name)));
       allImages = imgs.map((f)=>{
         const relPath = f.webkitRelativePath || f.name;
-        return {
-          id: relPath,
-          name: f.name,
-          relPath,
-          file: f,
-          src: URL.createObjectURL(f),
-          tags: [],
-          annotated: false,
-          groups: new Set()
-        };
+        return { id: relPath, name: f.name, relPath, file: f, src: URL.createObjectURL(f), tags: [], annotated: false, groups: new Set() };
       });
-      selectedIds.clear();
-      selectedImageIds.clear();
-      searchInputEl.value = '';
-      filteredImages = [...allImages];
-      page = 1;
-      rerender();
-      // 再次重置，避免后续同目录选择不触发
-      dirPicker.value = '';
+      selectedIds.clear(); selectedImageIds.clear(); searchInputEl.value='';
+      filteredImages = [...allImages]; page = 1; rerender(); dirPicker.value='';
     });
-
     btnClear.addEventListener('click', ()=>{
-      // 释放 URL 对象
       allImages.forEach(it=> it.src && URL.revokeObjectURL(it.src));
-      allImages = [];
-      filteredImages = [];
-      selectedIds.clear();
-      selectedImageIds.clear();
-      page = 1;
-      rerender();
-      // 关键：重置文件输入，保证后续同目录会触发 change
-      dirPicker.value = '';
+      allImages=[]; filteredImages=[]; selectedIds.clear(); selectedImageIds.clear(); page=1; rerender(); dirPicker.value='';
     });
 
     // ======== 搜索 & 下拉复选 ========
@@ -337,100 +305,77 @@
         return `
           <label class="dropdown-item" for="${chkId}">
             <input type="checkbox" id="${chkId}" data-id="${item.id}" ${checked}/>
-            <div style="flex:1">
-              <div style="font-weight:600">${item.name}</div>
-              <div class="meta">${item.relPath || item.id}</div>
-            </div>
+            <div style="flex:1"><div style="font-weight:600">${item.name}</div><div class="meta">${item.relPath || item.id}</div></div>
             ${item.annotated ? '<span class="badge" style="position:static">已标注</span>' : ''}
-          </label>
-        `;
+          </label>`;
       }).join('');
       dropdownItemsEl.querySelectorAll('input[type="checkbox"]').forEach(chk=>{
-        chk.addEventListener('change', (e)=>{
-          const id = e.target.dataset.id;
-          if (e.target.checked) selectedIds.add(id); else selectedIds.delete(id);
-        });
+        chk.addEventListener('change', (e)=>{ const id=e.target.dataset.id; if (e.target.checked) selectedIds.add(id); else selectedIds.delete(id); });
       });
     }
 
     function doSearch(){
       const q = searchInputEl.value.trim();
-      if (!q){
-        searchInputEl.classList.add('invalid');
-        hintEl.style.display = 'block';
-        setTimeout(()=>{ searchInputEl.classList.remove('invalid'); hintEl.style.display='none'; }, 1200);
-        return;
-      }
+      if (!q){ searchInputEl.classList.add('invalid'); hintEl.style.display = 'block'; setTimeout(()=>{ searchInputEl.classList.remove('invalid'); hintEl.style.display='none'; }, 1200); return; }
       const ql = q.toLowerCase();
-      const results = allImages.filter(item=>{
-        const hay = [item.id, item.name, item.relPath, ...(item.tags||[])].join(' ').toLowerCase();
-        return hay.includes(ql);
-      });
-      populateDropdown(results);
-      openDropdown();
+      const results = allImages.filter(item=>{ const hay = [item.id, item.name, item.relPath, ...(item.tags||[])].join(' ').toLowerCase(); return hay.includes(ql); });
+      populateDropdown(results); openDropdown();
     }
 
     function applyFilterFromDropdown(){
       if (selectedIds.size === 0) {
         const q = searchInputEl.value.trim().toLowerCase();
-        filteredImages = !q ? [...allImages] : allImages.filter(item=>{
-          const hay = [item.id, item.name, item.relPath, ...(item.tags||[])].join(' ').toLowerCase();
-          return hay.includes(q);
-        });
+        filteredImages = !q ? [...allImages] : allImages.filter(item=>{ const hay = [item.id, item.name, item.relPath, ...(item.tags||[])].join(' ').toLowerCase(); return hay.includes(q); });
       } else {
         filteredImages = allImages.filter(it=> selectedIds.has(it.id));
       }
-      page = 1;
-      rerender();
-      closeDropdown();
+      page = 1; rerender(); closeDropdown();
     }
 
     searchBtnEl.addEventListener('click', doSearch);
     searchInputEl.addEventListener('keydown', (e)=>{ if (e.key==='Enter') doSearch(); });
     btnApplyFilterEl.addEventListener('click', applyFilterFromDropdown);
     btnCloseDropdownEl.addEventListener('click', closeDropdown);
-    btnSelectAllEl.addEventListener('click', ()=>{
-      dropdownItemsEl.querySelectorAll('input[type="checkbox"]').forEach(chk=>{ chk.checked = true; selectedIds.add(chk.dataset.id); });
-    });
-    btnClearSelectEl.addEventListener('click', ()=>{
-      dropdownItemsEl.querySelectorAll('input[type="checkbox"]').forEach(chk=>{ chk.checked = false; selectedIds.delete(chk.dataset.id); });
-    });
+    btnSelectAllEl.addEventListener('click', ()=>{ dropdownItemsEl.querySelectorAll('input[type="checkbox"]').forEach(chk=>{ chk.checked=true; selectedIds.add(chk.dataset.id); }); });
+    btnClearSelectEl.addEventListener('click', ()=>{ dropdownItemsEl.querySelectorAll('input[type="checkbox"]').forEach(chk=>{ chk.checked=false; selectedIds.delete(chk.dataset.id); }); });
 
     // ======== 分页 ========
-    function clampPage(newPage){
-      const total = filteredImages.length;
-      const pages = Math.max(1, Math.ceil(total / pageSize));
-      return Math.min(Math.max(1, newPage), pages);
-    }
+    function clampPage(newPage){ const total = filteredImages.length; const pages = Math.max(1, Math.ceil(total / pageSize)); return Math.min(Math.max(1, newPage), pages); }
     btnPrev.addEventListener('click', ()=>{ page = clampPage(page - 1); rerender(); });
     btnNext.addEventListener('click', ()=>{ page = clampPage(page + 1); rerender(); });
     btnGo.addEventListener('click', ()=>{ const v = parseInt(inpPage.value || '1', 10); page = clampPage(v); rerender(); });
     inpPageSize.addEventListener('change', ()=>{ const v = Math.max(1, parseInt(inpPageSize.value || '24', 10)); pageSize = v; page = 1; rerender(); });
 
-    // ======== 分组：添加到已有组 / 新建组并添加 ========
+    // ======== 分组 + 分组后：清空选择 & 自动加遮罩 ========
     function openModal(el){ el.classList.add('open'); }
     function closeModal(el){ el.classList.remove('open'); }
 
-    function ensureItemGroups(){
-      allImages.forEach(it=>{ if (!it.groups) it.groups = new Set(); });
+    function ensureItemGroups(){ allImages.forEach(it=>{ if (!it.groups) it.groups = new Set(); }); }
+
+    function bulkMarkAnnotated(idSet){
+      const ids = Array.from(idSet);
+      // 批量标注，不在循环内 rerender，最后统一刷新
+      const idHash = new Set(ids);
+      allImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; });
+      filteredImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; });
     }
 
-    function refreshCardsGroups(ids){
-      // 更新渲染的数据对象的 groups 引用
-      const idSet = new Set(ids);
-      filteredImages.forEach(it=>{ if (!it.groups) it.groups = new Set(allImages.find(a=>a.id===it.id)?.groups || []); });
-      // 局部更新：重新渲染当前页（简单稳妥）
+    function clearAllSelections(){ selectedImageIds.clear(); }
+
+    function afterGroupingFinalize(){
+      // 1) 给本次选中的图像加 50% 绿色遮罩（标注态）
+      bulkMarkAnnotated(selectedImageIds);
+      // 2) 清空当前所有选中状态
+      clearAllSelections();
+      // 3) 统一刷新
       rerender();
     }
 
+    // 添加到已有组
     btnAddToGroup.addEventListener('click', ()=>{
       if (selectedImageIds.size===0) { alert('请先在画廊中选择至少一张图像'); return; }
       if (groups.size===0) { alert('当前没有任何分组，请先创建新分组'); return; }
-      // 列出分组供选择
-      groupList.innerHTML = Array.from(groups.keys()).map(name=>{
-        const rid = `grp_${safeEscape(name)}`;
-        return `<label class="row" style="padding:6px 0" for="${rid}"><input type="radio" name="grp_pick" id="${rid}" value="${name}"/> <span>${name}</span></label>`
-      }).join('');
+      groupList.innerHTML = Array.from(groups.keys()).map(name=>{ const rid = `grp_${safeEscape(name)}`; return `<label class="row" style="padding:6px 0" for="${rid}"><input type="radio" name="grp_pick" id="${rid}" value="${name}"/> <span>${name}</span></label>` }).join('');
       openModal(groupModal);
     });
 
@@ -444,12 +389,12 @@
         groups.get(name).add(id);
         const it = allImages.find(x=>x.id===id); if (it){ it.groups.add(name); }
       });
-      refreshCardsGroups(selectedImageIds);
       closeModal(groupModal);
+      // 关键：分组完成后 -> 加遮罩 + 清空选择
+      afterGroupingFinalize();
     });
 
-    btnCloseGroupModal.addEventListener('click', ()=> closeModal(groupModal));
-
+    // 新建分组并添加
     btnAddNewGroup.addEventListener('click', ()=>{
       if (selectedImageIds.size===0) { alert('请先在画廊中选择至少一张图像'); return; }
       inpNewGroupName.value = '';
@@ -465,23 +410,20 @@
         groups.get(name).add(id);
         const it = allImages.find(x=>x.id===id); if (it){ it.groups.add(name); }
       });
-      refreshCardsGroups(selectedImageIds);
       closeModal(newGroupModal);
+      // 关键：分组完成后 -> 加遮罩 + 清空选择
+      afterGroupingFinalize();
     });
 
-    // ======== 标注状态更新示例 ========
+    // ======== 标注状态更新（外部也可调用） ========
     function setAnnotated(id, val){
-      const item = allImages.find(x=>x.id===id);
-      if (!item) return;
-      item.annotated = !!val;
-      const fItem = filteredImages.find(x=>x.id===id);
-      if (fItem) fItem.annotated = !!val;
+      const item = allImages.find(x=>x.id===id); if (item) item.annotated = !!val;
+      const fItem = filteredImages.find(x=>x.id===id); if (fItem) fItem.annotated = !!val;
       rerender();
     }
 
     // 初始
-    filteredImages = [];
-    rerender();
+    filteredImages = []; rerender();
   </script>
 </body>
 </html>

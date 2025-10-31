@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>印章标注工具（分组后清空选择 + 自动加绿色遮罩）</title>
+  <title>印章标注工具（按组名搜索 + 选中组后一键添加 + 分组后加遮罩并清空选择）</title>
   <style>
     :root { --primary:#2563eb; --border:#e5e7eb; --bg:#f8fafc; --text:#111827; --muted:#6b7280; --success: rgba(16,185,129,0.5); }
     *{box-sizing:border-box}
@@ -19,14 +19,14 @@
     .input.invalid{border-color:#ef4444;box-shadow:0 0 0 3px rgba(239,68,68,.15)}
     .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
     .grow{flex:1}
-    /* 下拉复选 */
-    .search-area{position:relative;display:flex;gap:8px;align-items:center;flex:1;min-width:360px}
+    /* 下拉（组搜索） */
+    .search-area{position:relative;display:flex;gap:8px;align-items:center;flex:1;min-width:420px}
     .dropdown{position:absolute;left:0;top:calc(100% + 6px);width:100%;max-height:300px;overflow:auto;background:#fff;border:1px solid var(--border);border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.08);display:none;z-index:50}
     .dropdown.open{display:block}
     .dropdown-header{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-bottom:1px solid var(--border);position:sticky;top:0;background:#fff}
     .dropdown-item{display:flex;gap:10px;align-items:center;padding:10px;border-bottom:1px dashed #f1f5f9}
     .dropdown-item:last-child{border-bottom:none}
-    .dropdown-actions{display:flex;gap:8px;padding:10px;position:sticky;bottom:0;background:#fff;border-top:1px solid var(--border)}
+    .dropdown-empty{padding:12px;color:#6b7280;text-align:center}
     .meta{font-size:12px;color:var(--muted)}
     /* 画廊 */
     .gallery{padding:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
@@ -66,32 +66,27 @@
       <button id="btnClear" class="btn">清空</button>
     </div>
 
-    <!-- 分组操作 -->
+    <!-- 分组操作（仍保留） -->
     <div class="toolbar">
       <button class="btn" id="btnAddToGroup">添加到已有组</button>
       <button class="btn" id="btnAddNewGroup">添加新组</button>
       <button class="btn" id="btnExport">导出标注结果</button>
     </div>
 
-    <!-- 搜索 + 下拉复选 -->
+    <!-- 按组名搜索 + 一键添加到选中组 -->
     <div class="search-area">
-      <input id="searchInput" class="input grow" placeholder="按名称/标签搜索…（回车或点搜索）"/>
-      <button id="searchBtn" class="btn primary">搜索</button>
-      <div id="hint" class="meta" style="color:#ef4444;display:none;position:absolute;left:10px;top:40px">请输入搜索内容</div>
+      <input id="searchInput" class="input grow" placeholder="按组名搜索…（例如：元一）"/>
+      <button id="searchBtn" class="btn primary">搜索组</button>
+      <button id="btnSearchAdd" class="btn" disabled>添加到选中组</button>
+      <div id="hint" class="meta" style="color:#ef4444;display:none;position:absolute;left:10px;top:40px">请输入要搜索的组名</div>
 
-      <div id="searchDropdown" class="dropdown" aria-label="搜索结果下拉">
+      <!-- 组搜索结果下拉（单选） -->
+      <div id="searchDropdown" class="dropdown" aria-label="组搜索结果下拉">
         <div class="dropdown-header">
-          <strong>搜索结果</strong>
-          <div style="display:flex;gap:8px">
-            <button class="btn" id="btnSelectAll">全选</button>
-            <button class="btn" id="btnClearSelect">清除</button>
-          </div>
+          <strong>组别搜索结果</strong>
+          <span class="meta" id="groupResultCount"></span>
         </div>
         <div id="dropdownItems"></div>
-        <div class="dropdown-actions">
-          <button class="btn primary" id="btnApplyFilter">应用筛选</button>
-          <button class="btn" id="btnCloseDropdown">关闭</button>
-        </div>
       </div>
     </div>
   </header>
@@ -115,7 +110,7 @@
     <button id="btnGo" class="btn primary">跳转</button>
   </div>
 
-  <!-- 选择分组弹窗 -->
+  <!-- 选择分组弹窗（保留原功能） -->
   <div class="modal-backdrop" id="groupModal">
     <div class="modal">
       <header><h1 style="padding:12px 16px;margin:0">添加到已有组</h1></header>
@@ -129,7 +124,7 @@
     </div>
   </div>
 
-  <!-- 新建分组弹窗 -->
+  <!-- 新建分组弹窗（保留原功能） -->
   <div class="modal-backdrop" id="newGroupModal">
     <div class="modal">
       <header><h1 style="padding:12px 16px;margin:0">新建分组</h1></header>
@@ -148,11 +143,13 @@
     // ======== 状态 ========
     let allImages = [];
     let filteredImages = [];
-    let selectedIds = new Set();       // 搜索下拉勾选
     let selectedImageIds = new Set();  // 画廊被选中用于分组的图像
     let page = 1;
     let pageSize = 24;
     const groups = new Map();          // name -> Set(ids)
+
+    // 组搜索状态
+    let searchPickedGroup = null;      // 当前在下拉中选中的组名
 
     // ======== DOM ========
     const dirPicker = document.getElementById('dirPicker');
@@ -162,13 +159,11 @@
 
     const searchInputEl = document.getElementById('searchInput');
     const searchBtnEl = document.getElementById('searchBtn');
+    const btnSearchAddEl = document.getElementById('btnSearchAdd');
     const hintEl = document.getElementById('hint');
     const dropdownEl = document.getElementById('searchDropdown');
     const dropdownItemsEl = document.getElementById('dropdownItems');
-    const btnApplyFilterEl = document.getElementById('btnApplyFilter');
-    const btnCloseDropdownEl = document.getElementById('btnCloseDropdown');
-    const btnSelectAllEl = document.getElementById('btnSelectAll');
-    const btnClearSelectEl = document.getElementById('btnClearSelect');
+    const groupResultCountEl = document.getElementById('groupResultCount');
 
     const btnPrev = document.getElementById('btnPrev');
     const btnNext = document.getElementById('btnNext');
@@ -211,8 +206,11 @@
       inpPage.value = String(cur);
       btnPrev.disabled = (cur<=1);
       btnNext.disabled = (cur>=pages);
+      // 分组按钮可用性
       btnAddToGroup.disabled = (selectedImageIds.size===0 || groups.size===0);
       btnAddNewGroup.disabled = (selectedImageIds.size===0);
+      // 搜索添加按钮可用性
+      btnSearchAddEl.disabled = !(searchPickedGroup && selectedImageIds.size>0);
     }
 
     function renderGallery(list){
@@ -246,6 +244,7 @@
         `;
       }).join('');
 
+      // 绑定选择交互
       galleryEl.querySelectorAll('.image-wrap').forEach(el=>{
         el.addEventListener('click', (e)=>{
           const id = e.currentTarget.dataset.id;
@@ -286,96 +285,112 @@
         const relPath = f.webkitRelativePath || f.name;
         return { id: relPath, name: f.name, relPath, file: f, src: URL.createObjectURL(f), tags: [], annotated: false, groups: new Set() };
       });
-      selectedIds.clear(); selectedImageIds.clear(); searchInputEl.value='';
+      selectedImageIds.clear();
       filteredImages = [...allImages]; page = 1; rerender(); dirPicker.value='';
     });
     btnClear.addEventListener('click', ()=>{
       allImages.forEach(it=> it.src && URL.revokeObjectURL(it.src));
-      allImages=[]; filteredImages=[]; selectedIds.clear(); selectedImageIds.clear(); page=1; rerender(); dirPicker.value='';
+      allImages=[]; filteredImages=[]; selectedImageIds.clear(); page=1; rerender(); dirPicker.value='';
     });
 
-    // ======== 搜索 & 下拉复选 ========
+    // ======== 组搜索（按组名、单选） ========
     function openDropdown(){ dropdownEl.classList.add('open'); }
-    function closeDropdown(){ dropdownEl.classList.remove('open'); }
+    function closeDropdown(){ dropdownEl.classList.remove('open'); searchPickedGroup = null; btnSearchAddEl.disabled = true; }
 
-    function populateDropdown(results){
-      dropdownItemsEl.innerHTML = results.map(item=>{
-        const checked = selectedIds.has(item.id) ? 'checked' : '';
-        const chkId = `chk_${safeEscape(item.id)}`;
+    function populateGroupDropdown(names){
+      groupResultCountEl.textContent = `共 ${names.length} 个匹配组`;
+      if (names.length === 0){
+        dropdownItemsEl.innerHTML = '<div class="dropdown-empty">未找到匹配的组名</div>';
+        return;
+      }
+      dropdownItemsEl.innerHTML = names.map(name=>{
+        const rid = `grp_pick_${safeEscape(name)}`;
         return `
-          <label class="dropdown-item" for="${chkId}">
-            <input type="checkbox" id="${chkId}" data-id="${item.id}" ${checked}/>
-            <div style="flex:1"><div style="font-weight:600">${item.name}</div><div class="meta">${item.relPath || item.id}</div></div>
-            ${item.annotated ? '<span class="badge" style="position:static">已标注</span>' : ''}
-          </label>`;
+          <label class="dropdown-item" for="${rid}">
+            <input type="radio" name="grp_pick_search" id="${rid}" value="${name}" />
+            <div style="flex:1"><div style="font-weight:600">${name}</div><div class="meta">成员数：${(groups.get(name)||new Set()).size}</div></div>
+          </label>
+        `;
       }).join('');
-      dropdownItemsEl.querySelectorAll('input[type="checkbox"]').forEach(chk=>{
-        chk.addEventListener('change', (e)=>{ const id=e.target.dataset.id; if (e.target.checked) selectedIds.add(id); else selectedIds.delete(id); });
+
+      // 绑定单选事件
+      dropdownItemsEl.querySelectorAll('input[type="radio"]').forEach(r=>{
+        r.addEventListener('change', (e)=>{
+          searchPickedGroup = e.target.value;
+          btnSearchAddEl.disabled = !(searchPickedGroup && selectedImageIds.size>0);
+        });
       });
     }
 
-    function doSearch(){
-      const q = searchInputEl.value.trim();
-      if (!q){ searchInputEl.classList.add('invalid'); hintEl.style.display = 'block'; setTimeout(()=>{ searchInputEl.classList.remove('invalid'); hintEl.style.display='none'; }, 1200); return; }
-      const ql = q.toLowerCase();
-      const results = allImages.filter(item=>{ const hay = [item.id, item.name, item.relPath, ...(item.tags||[])].join(' ').toLowerCase(); return hay.includes(ql); });
-      populateDropdown(results); openDropdown();
-    }
-
-    function applyFilterFromDropdown(){
-      if (selectedIds.size === 0) {
-        const q = searchInputEl.value.trim().toLowerCase();
-        filteredImages = !q ? [...allImages] : allImages.filter(item=>{ const hay = [item.id, item.name, item.relPath, ...(item.tags||[])].join(' ').toLowerCase(); return hay.includes(q); });
-      } else {
-        filteredImages = allImages.filter(it=> selectedIds.has(it.id));
+    function doGroupSearch(){
+      const q = (searchInputEl.value || '').trim();
+      if (!q){
+        searchInputEl.classList.add('invalid');
+        hintEl.style.display = 'block';
+        setTimeout(()=>{ searchInputEl.classList.remove('invalid'); hintEl.style.display='none'; }, 1200);
+        return;
       }
-      page = 1; rerender(); closeDropdown();
+      if (groups.size === 0){
+        dropdownItemsEl.innerHTML = '<div class="dropdown-empty">当前没有任何分组可搜索</div>';
+        groupResultCountEl.textContent = '';
+        openDropdown();
+        return;
+      }
+      const ql = q.toLowerCase();
+      const names = Array.from(groups.keys()).filter(name => name.toLowerCase().includes(ql));
+      populateGroupDropdown(names);
+      openDropdown();
     }
 
-    searchBtnEl.addEventListener('click', doSearch);
-    searchInputEl.addEventListener('keydown', (e)=>{ if (e.key==='Enter') doSearch(); });
-    btnApplyFilterEl.addEventListener('click', applyFilterFromDropdown);
-    btnCloseDropdownEl.addEventListener('click', closeDropdown);
-    btnSelectAllEl.addEventListener('click', ()=>{ dropdownItemsEl.querySelectorAll('input[type="checkbox"]').forEach(chk=>{ chk.checked=true; selectedIds.add(chk.dataset.id); }); });
-    btnClearSelectEl.addEventListener('click', ()=>{ dropdownItemsEl.querySelectorAll('input[type="checkbox"]').forEach(chk=>{ chk.checked=false; selectedIds.delete(chk.dataset.id); }); });
+    searchBtnEl.addEventListener('click', doGroupSearch);
+    searchInputEl.addEventListener('keydown', (e)=>{ if (e.key==='Enter') doGroupSearch(); });
 
-    // ======== 分页 ========
-    function clampPage(newPage){ const total = filteredImages.length; const pages = Math.max(1, Math.ceil(total / pageSize)); return Math.min(Math.max(1, newPage), pages); }
-    btnPrev.addEventListener('click', ()=>{ page = clampPage(page - 1); rerender(); });
-    btnNext.addEventListener('click', ()=>{ page = clampPage(page + 1); rerender(); });
-    btnGo.addEventListener('click', ()=>{ const v = parseInt(inpPage.value || '1', 10); page = clampPage(v); rerender(); });
-    inpPageSize.addEventListener('change', ()=>{ const v = Math.max(1, parseInt(inpPageSize.value || '24', 10)); pageSize = v; page = 1; rerender(); });
+    // ======== 搜索右侧：添加到选中组（一键） ========
+    function bulkMarkAnnotated(idSet){
+      const ids = Array.from(idSet);
+      const idHash = new Set(ids);
+      allImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; });
+      filteredImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; });
+    }
+    function clearAllSelections(){ selectedImageIds.clear(); }
 
-    // ======== 分组 + 分组后：清空选择 & 自动加遮罩 ========
+    function afterGroupingFinalize(){
+      // 分组完成后：加遮罩 + 清空选择 + 刷新
+      bulkMarkAnnotated(selectedImageIds);
+      clearAllSelections();
+      rerender();
+      closeDropdown();
+    }
+
+    btnSearchAddEl.addEventListener('click', ()=>{
+      if (!searchPickedGroup){ alert('请先在下拉中选择一个组'); return; }
+      if (selectedImageIds.size===0){ alert('请先在画廊中选择至少一张图像'); return; }
+      // 确保组存在
+      if (!groups.has(searchPickedGroup)) groups.set(searchPickedGroup, new Set());
+      // 给选中图片加到该组
+      selectedImageIds.forEach(id=>{
+        groups.get(searchPickedGroup).add(id);
+        const it = allImages.find(x=>x.id===id); if (it){ if (!it.groups) it.groups = new Set(); it.groups.add(searchPickedGroup); }
+      });
+      // 完成后处理
+      afterGroupingFinalize();
+    });
+
+    // ======== 保留原：添加到已有组 / 新建分组 ========
     function openModal(el){ el.classList.add('open'); }
     function closeModal(el){ el.classList.remove('open'); }
 
     function ensureItemGroups(){ allImages.forEach(it=>{ if (!it.groups) it.groups = new Set(); }); }
 
-    function bulkMarkAnnotated(idSet){
-      const ids = Array.from(idSet);
-      // 批量标注，不在循环内 rerender，最后统一刷新
-      const idHash = new Set(ids);
-      allImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; });
-      filteredImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; });
-    }
+    function refreshCardsGroups(){ rerender(); }
 
-    function clearAllSelections(){ selectedImageIds.clear(); }
-
-    function afterGroupingFinalize(){
-      // 1) 给本次选中的图像加 50% 绿色遮罩（标注态）
-      bulkMarkAnnotated(selectedImageIds);
-      // 2) 清空当前所有选中状态
-      clearAllSelections();
-      // 3) 统一刷新
-      rerender();
-    }
-
-    // 添加到已有组
     btnAddToGroup.addEventListener('click', ()=>{
       if (selectedImageIds.size===0) { alert('请先在画廊中选择至少一张图像'); return; }
       if (groups.size===0) { alert('当前没有任何分组，请先创建新分组'); return; }
-      groupList.innerHTML = Array.from(groups.keys()).map(name=>{ const rid = `grp_${safeEscape(name)}`; return `<label class="row" style="padding:6px 0" for="${rid}"><input type="radio" name="grp_pick" id="${rid}" value="${name}"/> <span>${name}</span></label>` }).join('');
+      groupList.innerHTML = Array.from(groups.keys()).map(name=>{
+        const rid = `grp_${safeEscape(name)}`;
+        return `<label class="row" style="padding:6px 0" for="${rid}"><input type="radio" name="grp_pick" id="${rid}" value="${name}"/> <span>${name}</span></label>`
+      }).join('');
       openModal(groupModal);
     });
 
@@ -390,11 +405,11 @@
         const it = allImages.find(x=>x.id===id); if (it){ it.groups.add(name); }
       });
       closeModal(groupModal);
-      // 关键：分组完成后 -> 加遮罩 + 清空选择
       afterGroupingFinalize();
     });
 
-    // 新建分组并添加
+    btnCloseGroupModal.addEventListener('click', ()=> closeModal(groupModal));
+
     btnAddNewGroup.addEventListener('click', ()=>{
       if (selectedImageIds.size===0) { alert('请先在画廊中选择至少一张图像'); return; }
       inpNewGroupName.value = '';
@@ -411,7 +426,6 @@
         const it = allImages.find(x=>x.id===id); if (it){ it.groups.add(name); }
       });
       closeModal(newGroupModal);
-      // 关键：分组完成后 -> 加遮罩 + 清空选择
       afterGroupingFinalize();
     });
 

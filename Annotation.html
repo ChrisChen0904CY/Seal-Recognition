@@ -19,7 +19,6 @@
     .input.invalid{border-color:#ef4444;box-shadow:0 0 0 3px rgba(239,68,68,.15)}
     .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
     .grow{flex:1}
-    /* 下拉（组搜索） */
     .search-area{position:relative;display:flex;gap:8px;align-items:center;flex:1;min-width:420px}
     .dropdown{position:absolute;left:0;top:calc(100% + 6px);width:100%;max-height:300px;overflow:auto;background:#fff;border:1px solid var(--border);border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.08);display:none;z-index:50}
     .dropdown.open{display:block}
@@ -28,7 +27,6 @@
     .dropdown-item:last-child{border-bottom:none}
     .dropdown-empty{padding:12px;color:#6b7280;text-align:center}
     .meta{font-size:12px;color:var(--muted)}
-    /* 画廊 */
     .gallery{padding:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
     .card{background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden;position:relative;transition:box-shadow .12s ease,border-color .12s ease}
     .card:hover{box-shadow:0 6px 20px rgba(0,0,0,.08)}
@@ -39,15 +37,12 @@
     .card-body{padding:10px;display:flex;justify-content:space-between;align-items:center;gap:8px}
     .groups{display:flex;gap:6px;flex-wrap:wrap}
     .group-pill{font-size:11px;background:#eef2ff;color:#3730a3;padding:2px 6px;border-radius:999px;border:1px solid #c7d2fe}
-    /* 选择态 */
     .select-toggle{position:absolute;right:8px;top:8px;background:#fff;border:1px solid var(--border);border-radius:6px;padding:4px;display:flex;align-items:center;gap:6px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
     .select-toggle input{width:16px;height:16px}
     .card.selected{border-color:var(--primary);box-shadow:0 0 0 2px rgba(37,99,235,.25)}
     .card .image-wrap{cursor:pointer}
-    /* 分页 */
     .pagination{display:flex;gap:8px;align-items:center;justify-content:flex-end;border-top:1px solid var(--border);background:#fff;padding:8px 12px;position:sticky;bottom:0}
     .stat{font-size:12px;color:var(--muted);margin-right:auto}
-    /* 弹窗 */
     .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none;align-items:center;justify-content:center;z-index:100}
     .modal-backdrop.open{display:flex}
     .modal{width:520px;max-width:96vw;background:#fff;border-radius:12px;box-shadow:0 16px 48px rgba(0,0,0,.2);overflow:hidden}
@@ -59,28 +54,26 @@
   <header>
     <h1>T2印章标注工具</h1>
 
-    <!-- 导入区 -->
     <div class="row">
       <input id="dirPicker" type="file" webkitdirectory multiple style="display:none" />
       <button id="btnPickDir" class="btn">导入文件夹</button>
       <button id="btnClear" class="btn">清空</button>
     </div>
 
-    <!-- 分组操作（仍保留） -->
     <div class="toolbar">
       <button class="btn" id="btnAddToGroup">添加到已有组</button>
       <button class="btn" id="btnAddNewGroup">添加新组</button>
       <button class="btn" id="btnExport">导出标注结果</button>
+      <label class="btn" for="importJson" style="cursor:pointer">导入标注JSON</label>
+      <input id="importJson" type="file" accept="application/json" style="display:none" />
     </div>
 
-    <!-- 按组名搜索 + 一键添加到选中组 -->
     <div class="search-area">
       <input id="searchInput" class="input grow" placeholder="按组名搜索…（例如：元一）"/>
       <button id="searchBtn" class="btn primary">搜索组</button>
       <button id="btnSearchAdd" class="btn" disabled>添加到选中组</button>
       <div id="hint" class="meta" style="color:#ef4444;display:none;position:absolute;left:10px;top:40px">请输入要搜索的组名</div>
 
-      <!-- 组搜索结果下拉（单选） -->
       <div id="searchDropdown" class="dropdown" aria-label="组搜索结果下拉">
         <div class="dropdown-header">
           <strong>组别搜索结果</strong>
@@ -95,7 +88,6 @@
     <section class="gallery" id="gallery"></section>
   </main>
 
-  <!-- 分页条 -->
   <div class="pagination">
     <div class="stat" id="statText">0 / 0</div>
     <label class="meta">每页</label>
@@ -110,7 +102,6 @@
     <button id="btnGo" class="btn primary">跳转</button>
   </div>
 
-  <!-- 已有组弹窗 -->
   <div class="modal-backdrop" id="groupModal">
     <div class="modal">
       <header><h1 style="padding:12px 16px;margin:0">添加到已有组</h1></header>
@@ -124,7 +115,6 @@
     </div>
   </div>
 
-  <!-- 新建分组弹窗 -->
   <div class="modal-backdrop" id="newGroupModal">
     <div class="modal">
       <header><h1 style="padding:12px 16px;margin:0">新建分组</h1></header>
@@ -140,76 +130,24 @@
   </div>
 
   <script>
-    // ======== 状态 ========
-    let allImages = [];
-    let filteredImages = [];
-    let selectedImageIds = new Set();  // 画廊被选中用于分组的图像
-    let page = 1;
-    let pageSize = 24;
-    const groups = new Map();          // name -> Set(ids)
-    let searchPickedGroup = null;      // 组搜索下拉中选中的组名
+    let allImages = []; let filteredImages = []; let selectedImageIds = new Set(); let page=1; let pageSize=24; const groups = new Map(); let searchPickedGroup=null;
+    const dirPicker = document.getElementById('dirPicker'); const btnPickDir=document.getElementById('btnPickDir'); const btnClear=document.getElementById('btnClear'); const galleryEl=document.getElementById('gallery');
+    const searchInputEl=document.getElementById('searchInput'); const searchBtnEl=document.getElementById('searchBtn'); const btnSearchAddEl=document.getElementById('btnSearchAdd'); const hintEl=document.getElementById('hint'); const dropdownEl=document.getElementById('searchDropdown'); const dropdownItemsEl=document.getElementById('dropdownItems'); const groupResultCountEl=document.getElementById('groupResultCount');
+    const btnPrev=document.getElementById('btnPrev'); const btnNext=document.getElementById('btnNext'); const btnGo=document.getElementById('btnGo'); const inpPage=document.getElementById('inpPage'); const inpPageSize=document.getElementById('inpPageSize'); const statText=document.getElementById('statText'); const totalPagesEl=document.getElementById('totalPages');
+    const btnAddToGroup=document.getElementById('btnAddToGroup'); const btnAddNewGroup=document.getElementById('btnAddNewGroup'); const groupModal=document.getElementById('groupModal'); const groupList=document.getElementById('groupList'); const btnCloseGroupModal=document.getElementById('btnCloseGroupModal'); const btnConfirmAddToGroup=document.getElementById('btnConfirmAddToGroup');
+    const newGroupModal=document.getElementById('newGroupModal'); const inpNewGroupName=document.getElementById('inpNewGroupName'); const btnCloseNewGroupModal=document.getElementById('btnCloseNewGroupModal'); const btnCreateNewGroup=document.getElementById('btnCreateNewGroup');
+    const btnExport=document.getElementById('btnExport'); const importJson=document.getElementById('importJson');
 
-    // ======== DOM ========
-    const dirPicker = document.getElementById('dirPicker');
-    const btnPickDir = document.getElementById('btnPickDir');
-    const btnClear = document.getElementById('btnClear');
-    const galleryEl = document.getElementById('gallery');
-
-    const searchInputEl = document.getElementById('searchInput');
-    const searchBtnEl = document.getElementById('searchBtn');
-    const btnSearchAddEl = document.getElementById('btnSearchAdd');
-    const hintEl = document.getElementById('hint');
-    const dropdownEl = document.getElementById('searchDropdown');
-    const dropdownItemsEl = document.getElementById('dropdownItems');
-    const groupResultCountEl = document.getElementById('groupResultCount');
-
-    const btnPrev = document.getElementById('btnPrev');
-    const btnNext = document.getElementById('btnNext');
-    const btnGo = document.getElementById('btnGo');
-    const inpPage = document.getElementById('inpPage');
-    const inpPageSize = document.getElementById('inpPageSize');
-    const statText = document.getElementById('statText');
-    const totalPagesEl = document.getElementById('totalPages');
-
-    const btnAddToGroup = document.getElementById('btnAddToGroup');
-    const btnAddNewGroup = document.getElementById('btnAddNewGroup');
-    const groupModal = document.getElementById('groupModal');
-    const groupList = document.getElementById('groupList');
-    const btnCloseGroupModal = document.getElementById('btnCloseGroupModal');
-    const btnConfirmAddToGroup = document.getElementById('btnConfirmAddToGroup');
-
-    const newGroupModal = document.getElementById('newGroupModal');
-    const inpNewGroupName = document.getElementById('inpNewGroupName');
-    const btnCloseNewGroupModal = document.getElementById('btnCloseNewGroupModal');
-    const btnCreateNewGroup = document.getElementById('btnCreateNewGroup');
-
-    // ======== 工具 ========
     const imageExt = new Set(['.png','.jpg','.jpeg','.bmp','.gif','.webp','.tif','.tiff']);
     const safeEscape = (window.CSS && CSS.escape) ? (s)=>CSS.escape(s) : (s)=>String(s).replace(/[^a-zA-Z0-9_-]/g,'_');
 
     function getExt(name){ const i = name.lastIndexOf('.'); return i>=0 ? name.slice(i).toLowerCase() : ''; }
     function byPage(list, p, ps){ const total=list.length; const pages=Math.max(1, Math.ceil(total/ps)); const cur=Math.min(Math.max(1,p),pages); const start=(cur-1)*ps; const end=Math.min(start+ps,total); return {slice:list.slice(start,end), total, pages, cur}; }
-
-    function updateStat(total, pages, cur){
-      statText.textContent = `共 ${total} 张 · 当前第 ${cur} / ${pages} 页 · 已选 ${selectedImageIds.size}`;
-      totalPagesEl.textContent = String(pages);
-      inpPage.value = String(cur);
-      btnPrev.disabled = (cur<=1);
-      btnNext.disabled = (cur>=pages);
-      btnAddToGroup.disabled = (selectedImageIds.size===0 || groups.size===0);
-      btnAddNewGroup.disabled = (selectedImageIds.size===0);
-      btnSearchAddEl.disabled = !(searchPickedGroup && selectedImageIds.size>0);
-    }
+    function updateStat(total,pages,cur){ statText.textContent = `共 ${total} 张 · 当前第 ${cur} / ${pages} 页 · 已选 ${selectedImageIds.size}`; totalPagesEl.textContent=String(pages); inpPage.value=String(cur); btnPrev.disabled=(cur<=1); btnNext.disabled=(cur>=pages); btnAddToGroup.disabled=(selectedImageIds.size===0 || groups.size===0); btnAddNewGroup.disabled=(selectedImageIds.size===0); btnSearchAddEl.disabled = !(searchPickedGroup && selectedImageIds.size>0); }
 
     function renderGallery(list){
       galleryEl.innerHTML = list.map(item=>{
-        const annClass = item.annotated ? 'annotated' : '';
-        const badge = item.annotated ? '<span class="badge">已标注</span>' : '';
-        const selected = selectedImageIds.has(item.id) ? 'selected' : '';
-        const pills = (item.groups && item.groups.size>0)
-          ? Array.from(item.groups).map(g=>`<span class="group-pill">${g}</span>`).join('')
-          : '';
-        const chkId = `sel_${safeEscape(item.id)}`;
+        const annClass = item.annotated ? 'annotated' : ''; const badge = item.annotated ? '<span class="badge">已标注</span>' : ''; const selected = selectedImageIds.has(item.id) ? 'selected' : ''; const pills = (item.groups && item.groups.size>0) ? Array.from(item.groups).map(g=>`<span class="group-pill">${g}</span>`).join('') : ''; const chkId = `sel_${safeEscape(item.id)}`;
         return `
           <article class="card ${annClass} ${selected}" data-id="${item.id}">
             <div class="image-wrap" data-id="${item.id}" title="点击图像切换选择">
@@ -228,128 +166,89 @@
               </div>
               <div class="meta">ID: ${item.id}</div>
             </div>
-          </article>
-        `;
-      }).join('');
-
-      galleryEl.querySelectorAll('.image-wrap').forEach(el=>{
-        el.addEventListener('click', (e)=>{ const id=e.currentTarget.dataset.id; toggleSelect(id); });
-      });
-      galleryEl.querySelectorAll('.select-toggle input[type="checkbox"]').forEach(chk=>{
-        chk.addEventListener('click', (e)=>{ e.stopPropagation(); });
-        chk.addEventListener('change', (e)=>{ const id=e.target.dataset.id; setSelected(id, e.target.checked); });
-      });
+          </article>`; }).join('');
+      galleryEl.querySelectorAll('.image-wrap').forEach(el=>{ el.addEventListener('click', (e)=>{ const id=e.currentTarget.dataset.id; toggleSelect(id); }); });
+      galleryEl.querySelectorAll('.select-toggle input[type="checkbox"]').forEach(chk=>{ chk.addEventListener('click', (e)=>{ e.stopPropagation(); }); chk.addEventListener('change', (e)=>{ const id=e.target.dataset.id; setSelected(id, e.target.checked); }); });
     }
 
-    function setSelected(id, val){
-      if (val) selectedImageIds.add(id); else selectedImageIds.delete(id);
-      const card = galleryEl.querySelector(`.card[data-id="${safeEscape(id)}"]`);
-      if (card){ card.classList.toggle('selected', val); }
-      updateStat(filteredImages.length, Math.max(1, Math.ceil(filteredImages.length / pageSize)), page);
-    }
+    function setSelected(id,val){ if (val) selectedImageIds.add(id); else selectedImageIds.delete(id); const card=galleryEl.querySelector(`.card[data-id="${safeEscape(id)}"]`); if (card){ card.classList.toggle('selected', val); } updateStat(filteredImages.length, Math.max(1, Math.ceil(filteredImages.length/pageSize)), page); }
     function toggleSelect(id){ setSelected(id, !selectedImageIds.has(id)); }
     function rerender(){ const {slice,total,pages,cur} = byPage(filteredImages, page, pageSize); renderGallery(slice); updateStat(total,pages,cur); page=cur; }
 
-    // ======== 导入 / 清空 ========
+    // 导入/清空
     btnPickDir.addEventListener('click', ()=>{ dirPicker.value=''; dirPicker.click(); });
-    dirPicker.addEventListener('change', async (e)=>{
-      const files = Array.from(e.target.files || []);
-      if (!files.length) return;
-      const imgs = files.filter(f=> imageExt.has(getExt(f.name)));
-      allImages = imgs.map((f)=>{
-        const relPath = f.webkitRelativePath || f.name;
-        return { id: relPath, name: f.name, relPath, file: f, src: URL.createObjectURL(f), tags: [], annotated: false, groups: new Set() };
-      });
-      selectedImageIds.clear();
-      filteredImages = [...allImages]; page = 1; rerender(); dirPicker.value='';
-    });
-    btnClear.addEventListener('click', ()=>{
-      allImages.forEach(it=> it.src && URL.revokeObjectURL(it.src));
-      allImages=[]; filteredImages=[]; selectedImageIds.clear(); page=1; rerender(); dirPicker.value='';
-    });
+    dirPicker.addEventListener('change', async (e)=>{ const files=Array.from(e.target.files||[]); if(!files.length) return; const imgs=files.filter(f=> imageExt.has(getExt(f.name))); allImages = imgs.map(f=>{ const relPath=f.webkitRelativePath || f.name; return { id: relPath, name:f.name, relPath, file:f, src: URL.createObjectURL(f), tags:[], annotated:false, groups:new Set() }; }); selectedImageIds.clear(); filteredImages=[...allImages]; page=1; rerender(); dirPicker.value=''; });
+    btnClear.addEventListener('click', ()=>{ allImages.forEach(it=> it.src && URL.revokeObjectURL(it.src)); allImages=[]; filteredImages=[]; selectedImageIds.clear(); page=1; rerender(); dirPicker.value=''; });
 
-    // ======== 组搜索（按组名、单选） ========
+    // 组搜索（按组名单选）
     function openDropdown(){ dropdownEl.classList.add('open'); }
-    function closeDropdown(){ dropdownEl.classList.remove('open'); searchPickedGroup = null; btnSearchAddEl.disabled = true; }
-    function populateGroupDropdown(names){
-      groupResultCountEl.textContent = `共 ${names.length} 个匹配组`;
-      if (names.length === 0){ dropdownItemsEl.innerHTML = '<div class="dropdown-empty">未找到匹配的组名</div>'; return; }
-      dropdownItemsEl.innerHTML = names.map(name=>{
-        const rid = `grp_pick_${safeEscape(name)}`;
-        return `
-          <label class="dropdown-item" for="${rid}">
-            <input type="radio" name="grp_pick_search" id="${rid}" value="${name}" />
-            <div style="flex:1"><div style="font-weight:600">${name}</div><div class="meta">成员数：${(groups.get(name)||new Set()).size}</div></div>
-          </label>
-        `;
-      }).join('');
-      dropdownItemsEl.querySelectorAll('input[type="radio"]').forEach(r=>{
-        r.addEventListener('change', (e)=>{ searchPickedGroup = e.target.value; btnSearchAddEl.disabled = !(searchPickedGroup && selectedImageIds.size>0); });
-      });
-    }
-    function doGroupSearch(){
-      const q = (searchInputEl.value || '').trim();
-      if (!q){ searchInputEl.classList.add('invalid'); hintEl.style.display = 'block'; setTimeout(()=>{ searchInputEl.classList.remove('invalid'); hintEl.style.display='none'; }, 1200); return; }
-      if (groups.size === 0){ dropdownItemsEl.innerHTML = '<div class="dropdown-empty">当前没有任何分组可搜索</div>'; groupResultCountEl.textContent = ''; openDropdown(); return; }
-      const names = Array.from(groups.keys()).filter(name => name.toLowerCase().includes(q.toLowerCase()));
-      populateGroupDropdown(names); openDropdown();
-    }
-    searchBtnEl.addEventListener('click', doGroupSearch);
-    searchInputEl.addEventListener('keydown', (e)=>{ if (e.key==='Enter') doGroupSearch(); });
+    function closeDropdown(){ dropdownEl.classList.remove('open'); searchPickedGroup=null; btnSearchAddEl.disabled=true; }
+    function populateGroupDropdown(names){ groupResultCountEl.textContent = `共 ${names.length} 个匹配组`; if(names.length===0){ dropdownItemsEl.innerHTML = '<div class="dropdown-empty">未找到匹配的组名</div>'; return;} dropdownItemsEl.innerHTML = names.map(name=>{ const rid=`grp_pick_${safeEscape(name)}`; return `<label class="dropdown-item" for="${rid}"><input type="radio" name="grp_pick_search" id="${rid}" value="${name}"/><div style="flex:1"><div style="font-weight:600">${name}</div><div class="meta">成员数：${(groups.get(name)||new Set()).size}</div></div></label>`; }).join(''); dropdownItemsEl.querySelectorAll('input[type="radio"]').forEach(r=>{ r.addEventListener('change', (e)=>{ searchPickedGroup=e.target.value; btnSearchAddEl.disabled=!(searchPickedGroup && selectedImageIds.size>0); }); }); }
+    function doGroupSearch(){ const q=(searchInputEl.value||'').trim(); if(!q){ searchInputEl.classList.add('invalid'); hintEl.style.display='block'; setTimeout(()=>{ searchInputEl.classList.remove('invalid'); hintEl.style.display='none'; }, 1200); return;} if(groups.size===0){ dropdownItemsEl.innerHTML='<div class="dropdown-empty">当前没有任何分组可搜索</div>'; groupResultCountEl.textContent=''; openDropdown(); return;} const names=Array.from(groups.keys()).filter(name=> name.toLowerCase().includes(q.toLowerCase())); populateGroupDropdown(names); openDropdown(); }
+    searchBtnEl.addEventListener('click', doGroupSearch); searchInputEl.addEventListener('keydown', (e)=>{ if(e.key==='Enter') doGroupSearch(); });
 
-    // ======== 搜索右侧：添加到选中组（一键） ========
-    function bulkMarkAnnotated(idSet){ const idHash = new Set(idSet); allImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; }); filteredImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; }); }
+    // 搜索右侧：添加到选中组
+    function bulkMarkAnnotated(idSet){ const idHash=new Set(idSet); allImages.forEach(it=>{ if(idHash.has(it.id)) it.annotated=true; }); filteredImages.forEach(it=>{ if(idHash.has(it.id)) it.annotated=true; }); }
     function afterGroupingFinalize(){ bulkMarkAnnotated(selectedImageIds); selectedImageIds.clear(); rerender(); closeDropdown(); }
-    btnSearchAddEl.addEventListener('click', ()=>{
-      if (!searchPickedGroup){ alert('请先在下拉中选择一个组'); return; }
-      if (selectedImageIds.size===0){ alert('请先在画廊中选择至少一张图像'); return; }
-      if (!groups.has(searchPickedGroup)) groups.set(searchPickedGroup, new Set());
-      selectedImageIds.forEach(id=>{ groups.get(searchPickedGroup).add(id); const it = allImages.find(x=>x.id===id); if (it){ (it.groups ||= new Set()).add(searchPickedGroup); } });
-      afterGroupingFinalize();
-    });
+    btnSearchAddEl.addEventListener('click', ()=>{ if(!searchPickedGroup){ alert('请先在下拉中选择一个组'); return;} if(selectedImageIds.size===0){ alert('请先在画廊中选择至少一张图像'); return;} if(!groups.has(searchPickedGroup)) groups.set(searchPickedGroup, new Set()); selectedImageIds.forEach(id=>{ groups.get(searchPickedGroup).add(id); const it=allImages.find(x=>x.id===id); if(it){ (it.groups ||= new Set()).add(searchPickedGroup); } }); afterGroupingFinalize(); });
 
-    // ======== 保留原：添加到已有组 / 新建分组 ========
-    function openModal(el){ el.classList.add('open'); }
-    function closeModal(el){ el.classList.remove('open'); }
-
-    btnAddToGroup.addEventListener('click', ()=>{
-      if (selectedImageIds.size===0) { alert('请先在画廊中选择至少一张图像'); return; }
-      if (groups.size===0) { alert('当前没有任何分组，请先创建新分组'); return; }
-      groupList.innerHTML = Array.from(groups.keys()).map(name=>{ const rid = `grp_${safeEscape(name)}`; return `<label class="row" style="padding:6px 0" for="${rid}"><input type="radio" name="grp_pick" id="${rid}" value="${name}"/> <span>${name}</span></label>` }).join('');
-      openModal(groupModal);
-    });
-    btnConfirmAddToGroup.addEventListener('click', ()=>{
-      const picked = groupList.querySelector('input[name="grp_pick"]:checked');
-      if (!picked){ alert('请选择一个已有分组'); return; }
-      const name = picked.value;
-      if (!groups.has(name)) groups.set(name, new Set());
-      selectedImageIds.forEach(id=>{ groups.get(name).add(id); const it = allImages.find(x=>x.id===id); if (it){ (it.groups ||= new Set()).add(name); } });
-      closeModal(groupModal); afterGroupingFinalize();
-    });
-    // 修复：已有组弹窗取消按钮
+    // 添加到已有组 / 新建分组
+    function openModal(el){ el.classList.add('open'); } function closeModal(el){ el.classList.remove('open'); }
+    btnAddToGroup.addEventListener('click', ()=>{ if(selectedImageIds.size===0){ alert('请先在画廊中选择至少一张图像'); return;} if(groups.size===0){ alert('当前没有任何分组，请先创建新分组'); return;} groupList.innerHTML = Array.from(groups.keys()).map(name=>{ const rid=`grp_${safeEscape(name)}`; return `<label class="row" style="padding:6px 0" for="${rid}"><input type="radio" name="grp_pick" id="${rid}" value="${name}"/> <span>${name}</span></label>`; }).join(''); openModal(groupModal); });
+    btnConfirmAddToGroup.addEventListener('click', ()=>{ const picked=groupList.querySelector('input[name="grp_pick"]:checked'); if(!picked){ alert('请选择一个已有分组'); return;} const name=picked.value; if(!groups.has(name)) groups.set(name, new Set()); selectedImageIds.forEach(id=>{ groups.get(name).add(id); const it=allImages.find(x=>x.id===id); if(it){ (it.groups ||= new Set()).add(name); } }); closeModal(groupModal); afterGroupingFinalize(); });
     btnCloseGroupModal.addEventListener('click', ()=> closeModal(groupModal));
-
-    btnAddNewGroup.addEventListener('click', ()=>{
-      if (selectedImageIds.size===0) { alert('请先在画廊中选择至少一张图像'); return; }
-      inpNewGroupName.value = ''; openModal(newGroupModal);
-    });
-    btnCreateNewGroup.addEventListener('click', ()=>{
-      const name = (inpNewGroupName.value || '').trim();
-      if (!name){ alert('分组名称不能为空'); return; }
-      if (!groups.has(name)) groups.set(name, new Set());
-      selectedImageIds.forEach(id=>{ groups.get(name).add(id); const it = allImages.find(x=>x.id===id); if (it){ (it.groups ||= new Set()).add(name); } });
-      closeModal(newGroupModal); afterGroupingFinalize();
-    });
-    // 修复：新建分组弹窗取消按钮
+    btnAddNewGroup.addEventListener('click', ()=>{ if(selectedImageIds.size===0){ alert('请先在画廊中选择至少一张图像'); return;} inpNewGroupName.value=''; openModal(newGroupModal); });
+    btnCreateNewGroup.addEventListener('click', ()=>{ const name=(inpNewGroupName.value||'').trim(); if(!name){ alert('分组名称不能为空'); return;} if(!groups.has(name)) groups.set(name, new Set()); selectedImageIds.forEach(id=>{ groups.get(name).add(id); const it=allImages.find(x=>x.id===id); if(it){ (it.groups ||= new Set()).add(name); } }); closeModal(newGroupModal); afterGroupingFinalize(); });
     btnCloseNewGroupModal.addEventListener('click', ()=> closeModal(newGroupModal));
-    // 额外：点击遮罩或按 Esc 关闭弹窗
-    [newGroupModal, groupModal].forEach(backdrop => {
-      backdrop.addEventListener('click', (e) => { if (e.target === backdrop) backdrop.classList.remove('open'); });
-    });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') [newGroupModal, groupModal].forEach(b => b.classList.remove('open')); });
+    [newGroupModal, groupModal].forEach(backdrop=>{ backdrop.addEventListener('click', (e)=>{ if(e.target===backdrop) backdrop.classList.remove('open'); }); });
+    document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') [newGroupModal, groupModal].forEach(b=> b.classList.remove('open')); });
 
-    // ======== 初始 ========
-    filteredImages = []; rerender();
+    // ======== 导出 / 导入 ========
+    function serialize(){
+      const images = allImages.map(it=>({
+        id: it.id,
+        name: it.name,
+        relPath: it.relPath,
+        annotated: !!it.annotated,
+        groups: Array.from(it.groups||[])
+      }));
+      const groupIndex = Array.from(groups.entries()).map(([name, set])=>({ name, members: Array.from(set) }));
+      return { exportedAt: new Date().toISOString(), total: images.length, images, groups: groupIndex };
+    }
+    function downloadJson(obj, filename='annotations_export.json'){
+      const blob = new Blob([JSON.stringify(obj, null, 2)], {type:'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href = url; a.download = filename; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=> URL.revokeObjectURL(url), 0);
+    }
+    btnExport.addEventListener('click', ()=>{
+      if (allImages.length===0 && groups.size===0){ alert('当前没有可导出的数据'); return; }
+      const data = serialize();
+      const ts = new Date();
+      const stamp = `${ts.getFullYear()}${String(ts.getMonth()+1).padStart(2,'0')}${String(ts.getDate()).padStart(2,'0')}_${String(ts.getHours()).padStart(2,'0')}${String(ts.getMinutes()).padStart(2,'0')}${String(ts.getSeconds()).padStart(2,'0')}`;
+      downloadJson(data, `annotations_${stamp}.json`);
+    });
+
+    importJson.addEventListener('change', async (e)=>{
+      const file = e.target.files && e.target.files[0]; if (!file) return;
+      const text = await file.text();
+      try {
+        const obj = JSON.parse(text);
+        // 恢复 groups
+        groups.clear();
+        (obj.groups||[]).forEach(g=>{ groups.set(g.name, new Set(g.members||[])); });
+        // 恢复 images 的 annotated 和 groups（仅在已导入图片的情况下匹配 id）
+        const map = new Map(); (obj.images||[]).forEach(it=> map.set(it.id, it));
+        allImages.forEach(it=>{
+          const rec = map.get(it.id); if (rec){ it.annotated = !!rec.annotated; it.groups = new Set(rec.groups||[]); }
+        });
+        filteredImages = [...allImages]; page=1; rerender();
+        importJson.value='';
+        alert('标注/分组数据已导入并合并到当前会话');
+      } catch(err){ alert('导入失败：JSON 格式错误'); }
+    });
+
+    // 初始
+    filteredImages=[]; rerender();
   </script>
 </body>
 </html>

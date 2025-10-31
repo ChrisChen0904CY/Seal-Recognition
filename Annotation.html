@@ -246,7 +246,49 @@
         alert('标注/分组数据已导入并合并到当前会话');
       } catch(err){ alert('导入失败：JSON 格式错误'); }
     });
+      
+    // 更新每页显示数量的函数
+inpPageSize.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        const newSize = parseInt(inpPageSize.value);
+        if (newSize > 0) {
+            pageSize = newSize;
+            page = 1; // 重置到第一页
+            rerender();
+        } else {
+            alert('请输入一个有效的数字');
+        }
+    }
+});
 
+// 上一页按钮
+btnPrev.addEventListener('click', () => {
+    if (page > 1) {
+        page--;
+        rerender();
+    }
+});
+
+// 下一页按钮
+btnNext.addEventListener('click', () => {
+    const totalPages = Math.ceil(filteredImages.length / pageSize);
+    if (page < totalPages) {
+        page++;
+        rerender();
+    }
+});
+
+// 跳转页面
+btnGo.addEventListener('click', () => {
+    const targetPage = parseInt(inpPage.value);
+    const totalPages = Math.ceil(filteredImages.length / pageSize);
+    if (targetPage >= 1 && targetPage <= totalPages) {
+        page = targetPage;
+        rerender();
+    } else {
+        alert(`请输入有效的页码（1 - ${totalPages}）`);
+    }
+});
     // 初始
     filteredImages=[]; rerender();
   </script>

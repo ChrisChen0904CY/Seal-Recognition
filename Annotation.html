@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>印章标注工具（按组名搜索 + 选中组后一键添加 + 分组后加遮罩并清空选择）</title>
+  <title>T2印章标注工具</title>
   <style>
     :root { --primary:#2563eb; --border:#e5e7eb; --bg:#f8fafc; --text:#111827; --muted:#6b7280; --success: rgba(16,185,129,0.5); }
     *{box-sizing:border-box}
@@ -47,7 +47,7 @@
     /* 分页 */
     .pagination{display:flex;gap:8px;align-items:center;justify-content:flex-end;border-top:1px solid var(--border);background:#fff;padding:8px 12px;position:sticky;bottom:0}
     .stat{font-size:12px;color:var(--muted);margin-right:auto}
-    /* 简易弹窗 */
+    /* 弹窗 */
     .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none;align-items:center;justify-content:center;z-index:100}
     .modal-backdrop.open{display:flex}
     .modal{width:520px;max-width:96vw;background:#fff;border-radius:12px;box-shadow:0 16px 48px rgba(0,0,0,.2);overflow:hidden}
@@ -57,7 +57,7 @@
 </head>
 <body>
   <header>
-    <h1>印章标注工具</h1>
+    <h1>T2印章标注工具</h1>
 
     <!-- 导入区 -->
     <div class="row">
@@ -110,7 +110,7 @@
     <button id="btnGo" class="btn primary">跳转</button>
   </div>
 
-  <!-- 选择分组弹窗（保留原功能） -->
+  <!-- 已有组弹窗 -->
   <div class="modal-backdrop" id="groupModal">
     <div class="modal">
       <header><h1 style="padding:12px 16px;margin:0">添加到已有组</h1></header>
@@ -124,7 +124,7 @@
     </div>
   </div>
 
-  <!-- 新建分组弹窗（保留原功能） -->
+  <!-- 新建分组弹窗 -->
   <div class="modal-backdrop" id="newGroupModal">
     <div class="modal">
       <header><h1 style="padding:12px 16px;margin:0">新建分组</h1></header>
@@ -147,9 +147,7 @@
     let page = 1;
     let pageSize = 24;
     const groups = new Map();          // name -> Set(ids)
-
-    // 组搜索状态
-    let searchPickedGroup = null;      // 当前在下拉中选中的组名
+    let searchPickedGroup = null;      // 组搜索下拉中选中的组名
 
     // ======== DOM ========
     const dirPicker = document.getElementById('dirPicker');
@@ -190,15 +188,7 @@
     const safeEscape = (window.CSS && CSS.escape) ? (s)=>CSS.escape(s) : (s)=>String(s).replace(/[^a-zA-Z0-9_-]/g,'_');
 
     function getExt(name){ const i = name.lastIndexOf('.'); return i>=0 ? name.slice(i).toLowerCase() : ''; }
-
-    function byPage(list, p, ps){
-      const total = list.length;
-      const pages = Math.max(1, Math.ceil(total / ps));
-      const cur = Math.min(Math.max(1, p), pages);
-      const start = (cur - 1) * ps;
-      const end = Math.min(start + ps, total);
-      return {slice:list.slice(start, end), total, pages, cur};
-    }
+    function byPage(list, p, ps){ const total=list.length; const pages=Math.max(1, Math.ceil(total/ps)); const cur=Math.min(Math.max(1,p),pages); const start=(cur-1)*ps; const end=Math.min(start+ps,total); return {slice:list.slice(start,end), total, pages, cur}; }
 
     function updateStat(total, pages, cur){
       statText.textContent = `共 ${total} 张 · 当前第 ${cur} / ${pages} 页 · 已选 ${selectedImageIds.size}`;
@@ -206,10 +196,8 @@
       inpPage.value = String(cur);
       btnPrev.disabled = (cur<=1);
       btnNext.disabled = (cur>=pages);
-      // 分组按钮可用性
       btnAddToGroup.disabled = (selectedImageIds.size===0 || groups.size===0);
       btnAddNewGroup.disabled = (selectedImageIds.size===0);
-      // 搜索添加按钮可用性
       btnSearchAddEl.disabled = !(searchPickedGroup && selectedImageIds.size>0);
     }
 
@@ -244,19 +232,12 @@
         `;
       }).join('');
 
-      // 绑定选择交互
       galleryEl.querySelectorAll('.image-wrap').forEach(el=>{
-        el.addEventListener('click', (e)=>{
-          const id = e.currentTarget.dataset.id;
-          toggleSelect(id);
-        });
+        el.addEventListener('click', (e)=>{ const id=e.currentTarget.dataset.id; toggleSelect(id); });
       });
       galleryEl.querySelectorAll('.select-toggle input[type="checkbox"]').forEach(chk=>{
         chk.addEventListener('click', (e)=>{ e.stopPropagation(); });
-        chk.addEventListener('change', (e)=>{
-          const id = e.target.dataset.id;
-          setSelected(id, e.target.checked);
-        });
+        chk.addEventListener('change', (e)=>{ const id=e.target.dataset.id; setSelected(id, e.target.checked); });
       });
     }
 
@@ -267,13 +248,7 @@
       updateStat(filteredImages.length, Math.max(1, Math.ceil(filteredImages.length / pageSize)), page);
     }
     function toggleSelect(id){ setSelected(id, !selectedImageIds.has(id)); }
-
-    function rerender(){
-      const {slice, total, pages, cur} = byPage(filteredImages, page, pageSize);
-      renderGallery(slice);
-      updateStat(total, pages, cur);
-      page = cur;
-    }
+    function rerender(){ const {slice,total,pages,cur} = byPage(filteredImages, page, pageSize); renderGallery(slice); updateStat(total,pages,cur); page=cur; }
 
     // ======== 导入 / 清空 ========
     btnPickDir.addEventListener('click', ()=>{ dirPicker.value=''; dirPicker.click(); });
@@ -296,13 +271,9 @@
     // ======== 组搜索（按组名、单选） ========
     function openDropdown(){ dropdownEl.classList.add('open'); }
     function closeDropdown(){ dropdownEl.classList.remove('open'); searchPickedGroup = null; btnSearchAddEl.disabled = true; }
-
     function populateGroupDropdown(names){
       groupResultCountEl.textContent = `共 ${names.length} 个匹配组`;
-      if (names.length === 0){
-        dropdownItemsEl.innerHTML = '<div class="dropdown-empty">未找到匹配的组名</div>';
-        return;
-      }
+      if (names.length === 0){ dropdownItemsEl.innerHTML = '<div class="dropdown-empty">未找到匹配的组名</div>'; return; }
       dropdownItemsEl.innerHTML = names.map(name=>{
         const rid = `grp_pick_${safeEscape(name)}`;
         return `
@@ -312,67 +283,28 @@
           </label>
         `;
       }).join('');
-
-      // 绑定单选事件
       dropdownItemsEl.querySelectorAll('input[type="radio"]').forEach(r=>{
-        r.addEventListener('change', (e)=>{
-          searchPickedGroup = e.target.value;
-          btnSearchAddEl.disabled = !(searchPickedGroup && selectedImageIds.size>0);
-        });
+        r.addEventListener('change', (e)=>{ searchPickedGroup = e.target.value; btnSearchAddEl.disabled = !(searchPickedGroup && selectedImageIds.size>0); });
       });
     }
-
     function doGroupSearch(){
       const q = (searchInputEl.value || '').trim();
-      if (!q){
-        searchInputEl.classList.add('invalid');
-        hintEl.style.display = 'block';
-        setTimeout(()=>{ searchInputEl.classList.remove('invalid'); hintEl.style.display='none'; }, 1200);
-        return;
-      }
-      if (groups.size === 0){
-        dropdownItemsEl.innerHTML = '<div class="dropdown-empty">当前没有任何分组可搜索</div>';
-        groupResultCountEl.textContent = '';
-        openDropdown();
-        return;
-      }
-      const ql = q.toLowerCase();
-      const names = Array.from(groups.keys()).filter(name => name.toLowerCase().includes(ql));
-      populateGroupDropdown(names);
-      openDropdown();
+      if (!q){ searchInputEl.classList.add('invalid'); hintEl.style.display = 'block'; setTimeout(()=>{ searchInputEl.classList.remove('invalid'); hintEl.style.display='none'; }, 1200); return; }
+      if (groups.size === 0){ dropdownItemsEl.innerHTML = '<div class="dropdown-empty">当前没有任何分组可搜索</div>'; groupResultCountEl.textContent = ''; openDropdown(); return; }
+      const names = Array.from(groups.keys()).filter(name => name.toLowerCase().includes(q.toLowerCase()));
+      populateGroupDropdown(names); openDropdown();
     }
-
     searchBtnEl.addEventListener('click', doGroupSearch);
     searchInputEl.addEventListener('keydown', (e)=>{ if (e.key==='Enter') doGroupSearch(); });
 
     // ======== 搜索右侧：添加到选中组（一键） ========
-    function bulkMarkAnnotated(idSet){
-      const ids = Array.from(idSet);
-      const idHash = new Set(ids);
-      allImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; });
-      filteredImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; });
-    }
-    function clearAllSelections(){ selectedImageIds.clear(); }
-
-    function afterGroupingFinalize(){
-      // 分组完成后：加遮罩 + 清空选择 + 刷新
-      bulkMarkAnnotated(selectedImageIds);
-      clearAllSelections();
-      rerender();
-      closeDropdown();
-    }
-
+    function bulkMarkAnnotated(idSet){ const idHash = new Set(idSet); allImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; }); filteredImages.forEach(it=>{ if (idHash.has(it.id)) it.annotated = true; }); }
+    function afterGroupingFinalize(){ bulkMarkAnnotated(selectedImageIds); selectedImageIds.clear(); rerender(); closeDropdown(); }
     btnSearchAddEl.addEventListener('click', ()=>{
       if (!searchPickedGroup){ alert('请先在下拉中选择一个组'); return; }
       if (selectedImageIds.size===0){ alert('请先在画廊中选择至少一张图像'); return; }
-      // 确保组存在
       if (!groups.has(searchPickedGroup)) groups.set(searchPickedGroup, new Set());
-      // 给选中图片加到该组
-      selectedImageIds.forEach(id=>{
-        groups.get(searchPickedGroup).add(id);
-        const it = allImages.find(x=>x.id===id); if (it){ if (!it.groups) it.groups = new Set(); it.groups.add(searchPickedGroup); }
-      });
-      // 完成后处理
+      selectedImageIds.forEach(id=>{ groups.get(searchPickedGroup).add(id); const it = allImages.find(x=>x.id===id); if (it){ (it.groups ||= new Set()).add(searchPickedGroup); } });
       afterGroupingFinalize();
     });
 
@@ -380,63 +312,43 @@
     function openModal(el){ el.classList.add('open'); }
     function closeModal(el){ el.classList.remove('open'); }
 
-    function ensureItemGroups(){ allImages.forEach(it=>{ if (!it.groups) it.groups = new Set(); }); }
-
-    function refreshCardsGroups(){ rerender(); }
-
     btnAddToGroup.addEventListener('click', ()=>{
       if (selectedImageIds.size===0) { alert('请先在画廊中选择至少一张图像'); return; }
       if (groups.size===0) { alert('当前没有任何分组，请先创建新分组'); return; }
-      groupList.innerHTML = Array.from(groups.keys()).map(name=>{
-        const rid = `grp_${safeEscape(name)}`;
-        return `<label class="row" style="padding:6px 0" for="${rid}"><input type="radio" name="grp_pick" id="${rid}" value="${name}"/> <span>${name}</span></label>`
-      }).join('');
+      groupList.innerHTML = Array.from(groups.keys()).map(name=>{ const rid = `grp_${safeEscape(name)}`; return `<label class="row" style="padding:6px 0" for="${rid}"><input type="radio" name="grp_pick" id="${rid}" value="${name}"/> <span>${name}</span></label>` }).join('');
       openModal(groupModal);
     });
-
     btnConfirmAddToGroup.addEventListener('click', ()=>{
       const picked = groupList.querySelector('input[name="grp_pick"]:checked');
       if (!picked){ alert('请选择一个已有分组'); return; }
       const name = picked.value;
       if (!groups.has(name)) groups.set(name, new Set());
-      ensureItemGroups();
-      selectedImageIds.forEach(id=>{
-        groups.get(name).add(id);
-        const it = allImages.find(x=>x.id===id); if (it){ it.groups.add(name); }
-      });
-      closeModal(groupModal);
-      afterGroupingFinalize();
+      selectedImageIds.forEach(id=>{ groups.get(name).add(id); const it = allImages.find(x=>x.id===id); if (it){ (it.groups ||= new Set()).add(name); } });
+      closeModal(groupModal); afterGroupingFinalize();
     });
-
+    // 修复：已有组弹窗取消按钮
     btnCloseGroupModal.addEventListener('click', ()=> closeModal(groupModal));
 
     btnAddNewGroup.addEventListener('click', ()=>{
       if (selectedImageIds.size===0) { alert('请先在画廊中选择至少一张图像'); return; }
-      inpNewGroupName.value = '';
-      openModal(newGroupModal);
+      inpNewGroupName.value = ''; openModal(newGroupModal);
     });
-
     btnCreateNewGroup.addEventListener('click', ()=>{
       const name = (inpNewGroupName.value || '').trim();
       if (!name){ alert('分组名称不能为空'); return; }
       if (!groups.has(name)) groups.set(name, new Set());
-      ensureItemGroups();
-      selectedImageIds.forEach(id=>{
-        groups.get(name).add(id);
-        const it = allImages.find(x=>x.id===id); if (it){ it.groups.add(name); }
-      });
-      closeModal(newGroupModal);
-      afterGroupingFinalize();
+      selectedImageIds.forEach(id=>{ groups.get(name).add(id); const it = allImages.find(x=>x.id===id); if (it){ (it.groups ||= new Set()).add(name); } });
+      closeModal(newGroupModal); afterGroupingFinalize();
     });
+    // 修复：新建分组弹窗取消按钮
+    btnCloseNewGroupModal.addEventListener('click', ()=> closeModal(newGroupModal));
+    // 额外：点击遮罩或按 Esc 关闭弹窗
+    [newGroupModal, groupModal].forEach(backdrop => {
+      backdrop.addEventListener('click', (e) => { if (e.target === backdrop) backdrop.classList.remove('open'); });
+    });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') [newGroupModal, groupModal].forEach(b => b.classList.remove('open')); });
 
-    // ======== 标注状态更新（外部也可调用） ========
-    function setAnnotated(id, val){
-      const item = allImages.find(x=>x.id===id); if (item) item.annotated = !!val;
-      const fItem = filteredImages.find(x=>x.id===id); if (fItem) fItem.annotated = !!val;
-      rerender();
-    }
-
-    // 初始
+    // ======== 初始 ========
     filteredImages = []; rerender();
   </script>
 </body>

@@ -1,0 +1,4320 @@
+{
+  "exportedAt": "2025-11-02T14:15:42.070Z",
+  "total": 384,
+  "images": [
+    {
+      "id": "WSY/SEAL2021_test_000000011_p.jpg",
+      "name": "SEAL2021_test_000000011_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000011_p.jpg",
+      "annotated": true,
+      "groups": [
+        "艾提科信传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000012_p.jpg",
+      "name": "SEAL2021_test_000000012_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000012_p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000013_p.jpg",
+      "name": "SEAL2021_test_000000013_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000013_p.jpg",
+      "annotated": true,
+      "groups": [
+        "华泰通安科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000019_p.jpg",
+      "name": "SEAL2021_test_000000019_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000019_p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_00000001_p.jpg",
+      "name": "SEAL2021_test_00000001_p.jpg",
+      "relPath": "WSY/SEAL2021_test_00000001_p.jpg",
+      "annotated": true,
+      "groups": [
+        "凌云科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000024_p.jpg",
+      "name": "SEAL2021_test_000000024_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000024_p.jpg",
+      "annotated": true,
+      "groups": [
+        "凌云科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_00000002_p.jpg",
+      "name": "SEAL2021_test_00000002_p.jpg",
+      "relPath": "WSY/SEAL2021_test_00000002_p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_00000003_p..jpg",
+      "name": "SEAL2021_test_00000003_p..jpg",
+      "relPath": "WSY/SEAL2021_test_00000003_p..jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000094_p.jpg",
+      "name": "SEAL2021_test_000000094_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000094_p.jpg",
+      "annotated": true,
+      "groups": [
+        "迪摩网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000097_p.jpg",
+      "name": "SEAL2021_test_000000097_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000097_p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_00000009_p.jpg",
+      "name": "SEAL2021_test_00000009_p.jpg",
+      "relPath": "WSY/SEAL2021_test_00000009_p.jpg",
+      "annotated": true,
+      "groups": [
+        "东方峻景网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000100_p.jpg",
+      "name": "SEAL2021_test_000000100_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000100_p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000101_p.jpg",
+      "name": "SEAL2021_test_000000101_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000101_p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000102_p.jpg",
+      "name": "SEAL2021_test_000000102_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000102_p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000103_p.jpg",
+      "name": "SEAL2021_test_000000103_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000103_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000105_p.jpg",
+      "name": "SEAL2021_test_000000105_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000105_p.jpg",
+      "annotated": true,
+      "groups": [
+        "浦华众城科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000111_p.jpg",
+      "name": "SEAL2021_test_000000111_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000111_p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000112_p.jpg",
+      "name": "SEAL2021_test_000000112_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000112_p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000114_p.jpg",
+      "name": "SEAL2021_test_000000114_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000114_p.jpg",
+      "annotated": true,
+      "groups": [
+        "浦华众城传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000115_p.jpg",
+      "name": "SEAL2021_test_000000115_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000115_p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000116_p.jpg",
+      "name": "SEAL2021_test_000000116_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000116_p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000120_p.jpg",
+      "name": "SEAL2021_test_000000120_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000120_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新宇龙信息信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000121_p.jpg",
+      "name": "SEAL2021_test_000000121_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000121_p.jpg",
+      "annotated": true,
+      "groups": [
+        "合联电子科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000126_p.jpg",
+      "name": "SEAL2021_test_000000126_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000126_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000129_p.jpg",
+      "name": "SEAL2021_test_000000129_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000129_p.jpg",
+      "annotated": true,
+      "groups": [
+        "鑫博腾飞信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000134_p.jpg",
+      "name": "SEAL2021_test_000000134_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000134_p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000135_p.jpg",
+      "name": "SEAL2021_test_000000135_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000135_p.jpg",
+      "annotated": true,
+      "groups": [
+        "浦华众城传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000136_p.jpg",
+      "name": "SEAL2021_test_000000136_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000136_p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000137_p.jpg",
+      "name": "SEAL2021_test_000000137_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000137_p.jpg",
+      "annotated": true,
+      "groups": [
+        "迪摩网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000138_p.jpg",
+      "name": "SEAL2021_test_000000138_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000138_p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000142_p.jpg",
+      "name": "SEAL2021_test_000000142_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000142_p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000143_p.jpg",
+      "name": "SEAL2021_test_000000143_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000143_p.jpg",
+      "annotated": true,
+      "groups": [
+        "合联电子科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000148_p.jpg",
+      "name": "SEAL2021_test_000000148_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000148_p.jpg",
+      "annotated": true,
+      "groups": [
+        "立信电子信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000152_p.jpg",
+      "name": "SEAL2021_test_000000152_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000152_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新宇龙信息网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000153_p.jpg",
+      "name": "SEAL2021_test_000000153_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000153_p.jpg",
+      "annotated": true,
+      "groups": [
+        "东方峻景网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000159_p.jpg",
+      "name": "SEAL2021_test_000000159_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000159_p.jpg",
+      "annotated": true,
+      "groups": [
+        "迪摩网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000161_p.jpg",
+      "name": "SEAL2021_test_000000161_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000161_p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000162_p.jpg",
+      "name": "SEAL2021_test_000000162_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000162_p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000163_p.jpg",
+      "name": "SEAL2021_test_000000163_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000163_p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000168_p.jpg",
+      "name": "SEAL2021_test_000000168_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000168_p.jpg",
+      "annotated": true,
+      "groups": [
+        "鑫博腾飞信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000169_p.jpg",
+      "name": "SEAL2021_test_000000169_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000169_p.jpg",
+      "annotated": true,
+      "groups": [
+        "富罳网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000171_p.jpg",
+      "name": "SEAL2021_test_000000171_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000171_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新宇龙信息网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000173_p.jpg",
+      "name": "SEAL2021_test_000000173_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000173_p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000174_p.jpg",
+      "name": "SEAL2021_test_000000174_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000174_p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000180_p.jpg",
+      "name": "SEAL2021_test_000000180_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000180_p.jpg",
+      "annotated": true,
+      "groups": [
+        "国讯科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000184_p.jpg",
+      "name": "SEAL2021_test_000000184_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000184_p.jpg",
+      "annotated": true,
+      "groups": [
+        "合联电子科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000186_p.jpg",
+      "name": "SEAL2021_test_000000186_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000186_p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000187_p.jpg",
+      "name": "SEAL2021_test_000000187_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000187_p.jpg",
+      "annotated": true,
+      "groups": [
+        "迪摩网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000191_p.jpg",
+      "name": "SEAL2021_test_000000191_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000191_p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000192_p.jpg",
+      "name": "SEAL2021_test_000000192_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000192_p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000194_p.jpg",
+      "name": "SEAL2021_test_000000194_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000194_p.jpg",
+      "annotated": true,
+      "groups": [
+        "合联电子科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000197_p.jpg",
+      "name": "SEAL2021_test_000000197_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000197_p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞海科技传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000207_p.jpg",
+      "name": "SEAL2021_test_000000207_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000207_p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000209_p.jpg",
+      "name": "SEAL2021_test_000000209_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000209_p.jpg",
+      "annotated": true,
+      "groups": [
+        "艾提科信传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000212_p.jpg",
+      "name": "SEAL2021_test_000000212_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000212_p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000213_p.jpg",
+      "name": "SEAL2021_test_000000213_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000213_p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000216_p.jpg",
+      "name": "SEAL2021_test_000000216_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000216_p.jpg",
+      "annotated": true,
+      "groups": [
+        "华泰通安科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000217_p.jpg",
+      "name": "SEAL2021_test_000000217_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000217_p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞科信信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000225_p.jpg",
+      "name": "SEAL2021_test_000000225_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000225_p.jpg",
+      "annotated": true,
+      "groups": [
+        "中建创业传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000229_p.jpg",
+      "name": "SEAL2021_test_000000229_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000229_p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000230_p.jpg",
+      "name": "SEAL2021_test_000000230_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000230_p.jpg",
+      "annotated": true,
+      "groups": [
+        "同心万点科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000231_p.jpg",
+      "name": "SEAL2021_test_000000231_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000231_p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000236_p.jpg",
+      "name": "SEAL2021_test_000000236_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000236_p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000238_p.jpg",
+      "name": "SEAL2021_test_000000238_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000238_p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000242_p.jpg",
+      "name": "SEAL2021_test_000000242_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000242_p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000251_p.jpg",
+      "name": "SEAL2021_test_000000251_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000251_p.jpg",
+      "annotated": true,
+      "groups": [
+        "戴硕电子网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000253_p.jpg",
+      "name": "SEAL2021_test_000000253_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000253_p.jpg",
+      "annotated": true,
+      "groups": [
+        "富罳网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000268_p.jpg",
+      "name": "SEAL2021_test_000000268_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000268_p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000269_p.jpg",
+      "name": "SEAL2021_test_000000269_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000269_p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000270_p.jpg",
+      "name": "SEAL2021_test_000000270_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000270_p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000273_p.jpg",
+      "name": "SEAL2021_test_000000273_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000273_p.jpg",
+      "annotated": true,
+      "groups": [
+        "同心万点网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000275_p.jpg",
+      "name": "SEAL2021_test_000000275_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000275_p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000276_p.jpg",
+      "name": "SEAL2021_test_000000276_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000276_p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000282_p.jpg",
+      "name": "SEAL2021_test_000000282_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000282_p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000284_p.jpg",
+      "name": "SEAL2021_test_000000284_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000284_p.jpg",
+      "annotated": true,
+      "groups": [
+        "巨奥传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000288_p.jpg",
+      "name": "SEAL2021_test_000000288_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000288_p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000290_p.jpg",
+      "name": "SEAL2021_test_000000290_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000290_p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000292_p.jpg",
+      "name": "SEAL2021_test_000000292_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000292_p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000294_p.jpg",
+      "name": "SEAL2021_test_000000294_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000294_p.jpg",
+      "annotated": true,
+      "groups": [
+        "维旺明网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000299_p.jpg",
+      "name": "SEAL2021_test_000000299_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000299_p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000302_p.jpg",
+      "name": "SEAL2021_test_000000302_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000302_p.jpg",
+      "annotated": true,
+      "groups": [
+        "维涛科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000305_p.jpg",
+      "name": "SEAL2021_test_000000305_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000305_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000306_p.jpg",
+      "name": "SEAL2021_test_000000306_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000306_p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000307_p.jpg",
+      "name": "SEAL2021_test_000000307_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000307_p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000308_p.jpg",
+      "name": "SEAL2021_test_000000308_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000308_p.jpg",
+      "annotated": true,
+      "groups": [
+        "巨奥传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000314_p.jpg",
+      "name": "SEAL2021_test_000000314_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000314_p.jpg",
+      "annotated": true,
+      "groups": [
+        "精芯传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000316_p.jpg",
+      "name": "SEAL2021_test_000000316_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000316_p.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000317_p.jpg",
+      "name": "SEAL2021_test_000000317_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000317_p.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000318_p.jpg",
+      "name": "SEAL2021_test_000000318_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000318_p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000322_p.jpg",
+      "name": "SEAL2021_test_000000322_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000322_p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000327_p.jpg",
+      "name": "SEAL2021_test_000000327_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000327_p.jpg",
+      "annotated": true,
+      "groups": [
+        "银嘉信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000333_p.jpg",
+      "name": "SEAL2021_test_000000333_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000333_p.jpg",
+      "annotated": true,
+      "groups": [
+        "戴硕电子网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000336_p.jpg",
+      "name": "SEAL2021_test_000000336_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000336_p.jpg",
+      "annotated": true,
+      "groups": [
+        "晖来计算机网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000339_p.jpg",
+      "name": "SEAL2021_test_000000339_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000339_p.jpg",
+      "annotated": true,
+      "groups": [
+        "富罳网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000340_p.jpg",
+      "name": "SEAL2021_test_000000340_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000340_p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000350_p.jpg",
+      "name": "SEAL2021_test_000000350_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000350_p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000351_p.jpg",
+      "name": "SEAL2021_test_000000351_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000351_p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000356_p.jpg",
+      "name": "SEAL2021_test_000000356_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000356_p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000361_p.jpg",
+      "name": "SEAL2021_test_000000361_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000361_p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞海科技传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000363_p.jpg",
+      "name": "SEAL2021_test_000000363_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000363_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000380_p.jpg",
+      "name": "SEAL2021_test_000000380_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000380_p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞海科技传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000382_p.jpg",
+      "name": "SEAL2021_test_000000382_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000382_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000384_p.jpg",
+      "name": "SEAL2021_test_000000384_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000384_p.jpg",
+      "annotated": true,
+      "groups": [
+        "浦华众城科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000390_p.jpg",
+      "name": "SEAL2021_test_000000390_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000390_p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用",
+        "快讯网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000394_p.jpg",
+      "name": "SEAL2021_test_000000394_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000394_p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000406_p.jpg",
+      "name": "SEAL2021_test_000000406_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000406_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000409_p.jpg",
+      "name": "SEAL2021_test_000000409_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000409_p.jpg",
+      "annotated": true,
+      "groups": [
+        "立信电子信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000411_p.jpg",
+      "name": "SEAL2021_test_000000411_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000411_p.jpg",
+      "annotated": true,
+      "groups": [
+        "浦华众城科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000412_p.jpg",
+      "name": "SEAL2021_test_000000412_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000412_p.jpg",
+      "annotated": true,
+      "groups": [
+        "浦华众城科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000414_p.jpg",
+      "name": "SEAL2021_test_000000414_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000414_p.jpg",
+      "annotated": true,
+      "groups": [
+        "浦华众城科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000415_p.jpg",
+      "name": "SEAL2021_test_000000415_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000415_p.jpg",
+      "annotated": true,
+      "groups": [
+        "鑫博腾飞信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000420_p.jpg",
+      "name": "SEAL2021_test_000000420_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000420_p.jpg",
+      "annotated": true,
+      "groups": [
+        "东方峻景网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000423_p.jpg",
+      "name": "SEAL2021_test_000000423_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000423_p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_test_000000431_p.jpg",
+      "name": "SEAL2021_test_000000431_p.jpg",
+      "relPath": "WSY/SEAL2021_test_000000431_p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000003-p.jpg",
+      "name": "SEAL2021_train_00000003-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000003-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000004-p.jpg",
+      "name": "SEAL2021_train_00000004-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000004-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000006-p.jpg",
+      "name": "SEAL2021_train_00000006-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000006-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000007-p.jpg",
+      "name": "SEAL2021_train_00000007-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000007-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000008-p.jpg",
+      "name": "SEAL2021_train_00000008-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000008-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000009-p.jpg",
+      "name": "SEAL2021_train_00000009-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000009-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000010-p.jpg",
+      "name": "SEAL2021_train_00000010-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000010-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000015-p.jpg",
+      "name": "SEAL2021_train_00000015-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000015-p.jpg",
+      "annotated": true,
+      "groups": [
+        "艾提科信传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000016-p.jpg",
+      "name": "SEAL2021_train_00000016-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000016-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000026-p.jpg",
+      "name": "SEAL2021_train_00000026-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000026-p.jpg",
+      "annotated": true,
+      "groups": [
+        "精芯传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000029-p.jpg",
+      "name": "SEAL2021_train_00000029-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000029-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000030-p.jpg",
+      "name": "SEAL2021_train_00000030-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000030-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000032-p.jpg",
+      "name": "SEAL2021_train_00000032-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000032-p.jpg",
+      "annotated": true,
+      "groups": [
+        "鸿睿思博信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000035-p.jpg",
+      "name": "SEAL2021_train_00000035-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000035-p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000037-p.jpg",
+      "name": "SEAL2021_train_00000037-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000037-p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000038-p.jpg",
+      "name": "SEAL2021_train_00000038-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000038-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000039-p.jpg",
+      "name": "SEAL2021_train_00000039-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000039-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000042-p.jpg",
+      "name": "SEAL2021_train_00000042-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000042-p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000054-p.jpg",
+      "name": "SEAL2021_train_00000054-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000054-p.jpg",
+      "annotated": true,
+      "groups": [
+        "鸿睿思博信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000056-p.jpg",
+      "name": "SEAL2021_train_00000056-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000056-p.jpg",
+      "annotated": true,
+      "groups": [
+        "良诺网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000061-p.jpg",
+      "name": "SEAL2021_train_00000061-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000061-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000069-p.jpg",
+      "name": "SEAL2021_train_00000069-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000069-p.jpg",
+      "annotated": true,
+      "groups": [
+        "艾提科信传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000072-p.jpg",
+      "name": "SEAL2021_train_00000072-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000072-p.jpg",
+      "annotated": true,
+      "groups": [
+        "同兴万点科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000075-p.jpg",
+      "name": "SEAL2021_train_00000075-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000075-p.jpg",
+      "annotated": true,
+      "groups": [
+        "晖来计算机信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000080-p.jpg",
+      "name": "SEAL2021_train_00000080-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000080-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000081-p.jpg",
+      "name": "SEAL2021_train_00000081-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000081-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000094-p.jpg",
+      "name": "SEAL2021_train_00000094-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000094-p.jpg",
+      "annotated": true,
+      "groups": [
+        "黄石金承网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000096-p.jpg",
+      "name": "SEAL2021_train_00000096-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000096-p.jpg",
+      "annotated": true,
+      "groups": [
+        "黄石金承网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000104-p.jpg",
+      "name": "SEAL2021_train_00000104-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000104-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000105-p.jpg",
+      "name": "SEAL2021_train_00000105-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000105-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000106-p.jpg",
+      "name": "SEAL2021_train_00000106-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000106-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000108-p.jpg",
+      "name": "SEAL2021_train_00000108-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000108-p.jpg",
+      "annotated": true,
+      "groups": [
+        "晖来计算机信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000111-p.jpg",
+      "name": "SEAL2021_train_00000111-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000111-p.jpg",
+      "annotated": true,
+      "groups": [
+        "晖来计算机信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000115-p.jpg",
+      "name": "SEAL2021_train_00000115-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000115-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000118-p.jpg",
+      "name": "SEAL2021_train_00000118-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000118-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000122-p.jpg",
+      "name": "SEAL2021_train_00000122-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000122-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000123-p.jpg",
+      "name": "SEAL2021_train_00000123-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000123-p.jpg",
+      "annotated": true,
+      "groups": [
+        "凌云科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000124-p.jpg",
+      "name": "SEAL2021_train_00000124-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000124-p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000125-p.jpg",
+      "name": "SEAL2021_train_00000125-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000125-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000133-p.jpg",
+      "name": "SEAL2021_train_00000133-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000133-p.jpg",
+      "annotated": true,
+      "groups": [
+        "同兴万点科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000137-p.jpg",
+      "name": "SEAL2021_train_00000137-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000137-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000140-p.jpg",
+      "name": "SEAL2021_train_00000140-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000140-p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000144-p.jpg",
+      "name": "SEAL2021_train_00000144-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000144-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000147-p.jpg",
+      "name": "SEAL2021_train_00000147-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000147-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000148-p.jpg",
+      "name": "SEAL2021_train_00000148-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000148-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000151-p.jpg",
+      "name": "SEAL2021_train_00000151-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000151-p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000155-p.jpg",
+      "name": "SEAL2021_train_00000155-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000155-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000156-p.jpg",
+      "name": "SEAL2021_train_00000156-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000156-p.jpg",
+      "annotated": true,
+      "groups": [
+        "精芯传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000157-p.jpg",
+      "name": "SEAL2021_train_00000157-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000157-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000160-p.jpg",
+      "name": "SEAL2021_train_00000160-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000160-p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000168-p.jpg",
+      "name": "SEAL2021_train_00000168-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000168-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000171-p.jpg",
+      "name": "SEAL2021_train_00000171-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000171-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000172-p.jpg",
+      "name": "SEAL2021_train_00000172-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000172-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000173-p.jpg",
+      "name": "SEAL2021_train_00000173-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000173-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000174-p.jpg",
+      "name": "SEAL2021_train_00000174-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000174-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000176-p.jpg",
+      "name": "SEAL2021_train_00000176-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000176-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000184-p.jpg",
+      "name": "SEAL2021_train_00000184-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000184-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000185-p.jpg",
+      "name": "SEAL2021_train_00000185-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000185-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000188-p.jpg",
+      "name": "SEAL2021_train_00000188-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000188-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000189-p.jpg",
+      "name": "SEAL2021_train_00000189-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000189-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000190-p.jpg",
+      "name": "SEAL2021_train_00000190-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000190-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000194-p.jpg",
+      "name": "SEAL2021_train_00000194-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000194-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000197-p.jpg",
+      "name": "SEAL2021_train_00000197-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000197-p.jpg",
+      "annotated": true,
+      "groups": [
+        "浙大万明传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000199-p.jpg",
+      "name": "SEAL2021_train_00000199-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000199-p.jpg",
+      "annotated": true,
+      "groups": [
+        "浙大万明传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000204-p.jpg",
+      "name": "SEAL2021_train_00000204-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000204-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000206-p.jpg",
+      "name": "SEAL2021_train_00000206-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000206-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000211-p.jpg",
+      "name": "SEAL2021_train_00000211-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000211-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000213-p.jpg",
+      "name": "SEAL2021_train_00000213-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000213-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000214-p.jpg",
+      "name": "SEAL2021_train_00000214-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000214-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创汇网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000218-p.jpg",
+      "name": "SEAL2021_train_00000218-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000218-p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000229-p.jpg",
+      "name": "SEAL2021_train_00000229-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000229-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000230-p.jpg",
+      "name": "SEAL2021_train_00000230-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000230-p.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000233-p.jpg",
+      "name": "SEAL2021_train_00000233-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000233-p.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000234-p.jpg",
+      "name": "SEAL2021_train_00000234-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000234-p.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000235-p.jpg",
+      "name": "SEAL2021_train_00000235-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000235-p.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000236-p.jpg",
+      "name": "SEAL2021_train_00000236-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000236-p.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000237-p.jpg",
+      "name": "SEAL2021_train_00000237-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000237-p.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000244-p.jpg",
+      "name": "SEAL2021_train_00000244-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000244-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000250-p.jpg",
+      "name": "SEAL2021_train_00000250-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000250-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000251-p.jpg",
+      "name": "SEAL2021_train_00000251-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000251-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000253-p.jpg",
+      "name": "SEAL2021_train_00000253-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000253-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000254-p.jpg",
+      "name": "SEAL2021_train_00000254-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000254-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000255-p.jpg",
+      "name": "SEAL2021_train_00000255-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000255-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000260-p.jpg",
+      "name": "SEAL2021_train_00000260-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000260-p.jpg",
+      "annotated": true,
+      "groups": [
+        "浙大万明传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000266-p.jpg",
+      "name": "SEAL2021_train_00000266-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000266-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000269-p.jpg",
+      "name": "SEAL2021_train_00000269-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000269-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000270-p.jpg",
+      "name": "SEAL2021_train_00000270-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000270-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天益信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000273-p.jpg",
+      "name": "SEAL2021_train_00000273-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000273-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天益信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000279-p.jpg",
+      "name": "SEAL2021_train_00000279-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000279-p.jpg",
+      "annotated": true,
+      "groups": [
+        "维涛信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000282-p.jpg",
+      "name": "SEAL2021_train_00000282-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000282-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000283-p.jpg",
+      "name": "SEAL2021_train_00000283-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000283-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000284-p.jpg",
+      "name": "SEAL2021_train_00000284-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000284-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000286-p.jpg",
+      "name": "SEAL2021_train_00000286-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000286-p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000290-p.jpg",
+      "name": "SEAL2021_train_00000290-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000290-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000291-p.jpg",
+      "name": "SEAL2021_train_00000291-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000291-p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000295-p.jpg",
+      "name": "SEAL2021_train_00000295-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000295-p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000299-p.jpg",
+      "name": "SEAL2021_train_00000299-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000299-p.jpg",
+      "annotated": true,
+      "groups": [
+        "精芯传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000303-p.jpg",
+      "name": "SEAL2021_train_00000303-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000303-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000304-p.jpg",
+      "name": "SEAL2021_train_00000304-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000304-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000305-p.jpg",
+      "name": "SEAL2021_train_00000305-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000305-p.jpg",
+      "annotated": true,
+      "groups": [
+        "巨奥传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000307-p.jpg",
+      "name": "SEAL2021_train_00000307-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000307-p.jpg",
+      "annotated": true,
+      "groups": [
+        "精芯传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000309-p.jpg",
+      "name": "SEAL2021_train_00000309-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000309-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000310-p.jpg",
+      "name": "SEAL2021_train_00000310-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000310-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000312-p.jpg",
+      "name": "SEAL2021_train_00000312-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000312-p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000318-p.jpg",
+      "name": "SEAL2021_train_00000318-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000318-p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000323-p.jpg",
+      "name": "SEAL2021_train_00000323-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000323-p.jpg",
+      "annotated": true,
+      "groups": [
+        "维涛科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000327-p.jpg",
+      "name": "SEAL2021_train_00000327-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000327-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000328-p.jpg",
+      "name": "SEAL2021_train_00000328-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000328-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000329-p.jpg",
+      "name": "SEAL2021_train_00000329-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000329-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000337-p.jpg",
+      "name": "SEAL2021_train_00000337-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000337-p.jpg",
+      "annotated": true,
+      "groups": [
+        "富罳网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000340-p.jpg",
+      "name": "SEAL2021_train_00000340-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000340-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞海科技网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000343-p.jpg",
+      "name": "SEAL2021_train_00000343-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000343-p.jpg",
+      "annotated": true,
+      "groups": [
+        "鸿睿思博网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000344-p.jpg",
+      "name": "SEAL2021_train_00000344-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000344-p.jpg",
+      "annotated": true,
+      "groups": [
+        "鸿睿思博网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000347-p.jpg",
+      "name": "SEAL2021_train_00000347-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000347-p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000351-p.jpg",
+      "name": "SEAL2021_train_00000351-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000351-p.jpg",
+      "annotated": true,
+      "groups": [
+        "浦华众城传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000355-p.jpg",
+      "name": "SEAL2021_train_00000355-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000355-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000359-p.jpg",
+      "name": "SEAL2021_train_00000359-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000359-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000362-p.jpg",
+      "name": "SEAL2021_train_00000362-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000362-p.jpg",
+      "annotated": true,
+      "groups": [
+        "维涛信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000363-p.jpg",
+      "name": "SEAL2021_train_00000363-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000363-p.jpg",
+      "annotated": true,
+      "groups": [
+        "维涛信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000365-p.jpg",
+      "name": "SEAL2021_train_00000365-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000365-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华泰通安传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000366-p.jpg",
+      "name": "SEAL2021_train_00000366-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000366-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华泰通安传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000367-p.jpg",
+      "name": "SEAL2021_train_00000367-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000367-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华泰通安传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000379-p.jpg",
+      "name": "SEAL2021_train_00000379-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000379-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000380-p.jpg",
+      "name": "SEAL2021_train_00000380-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000380-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000387-p.jpg",
+      "name": "SEAL2021_train_00000387-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000387-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000389-p.jpg",
+      "name": "SEAL2021_train_00000389-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000389-p.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000396-p.jpg",
+      "name": "SEAL2021_train_00000396-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000396-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000399-p.jpg",
+      "name": "SEAL2021_train_00000399-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000399-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000404-p.jpg",
+      "name": "SEAL2021_train_00000404-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000404-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000412-p.jpg",
+      "name": "SEAL2021_train_00000412-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000412-p.jpg",
+      "annotated": true,
+      "groups": [
+        "晖来计算机信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000416-p.jpg",
+      "name": "SEAL2021_train_00000416-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000416-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000419-p.jpg",
+      "name": "SEAL2021_train_00000419-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000419-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000420-p.jpg",
+      "name": "SEAL2021_train_00000420-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000420-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000421-p.jpg",
+      "name": "SEAL2021_train_00000421-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000421-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000423-p.jpg",
+      "name": "SEAL2021_train_00000423-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000423-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000424-p.jpg",
+      "name": "SEAL2021_train_00000424-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000424-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000441-p.jpg",
+      "name": "SEAL2021_train_00000441-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000441-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000454-p.jpg",
+      "name": "SEAL2021_train_00000454-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000454-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华远软件科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000456-p.jpg",
+      "name": "SEAL2021_train_00000456-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000456-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华远软件科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000458-p.jpg",
+      "name": "SEAL2021_train_00000458-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000458-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华远软件科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000459-p.jpg",
+      "name": "SEAL2021_train_00000459-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000459-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华远软件科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000461-p.jpg",
+      "name": "SEAL2021_train_00000461-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000461-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华远软件科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000464-p.jpg",
+      "name": "SEAL2021_train_00000464-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000464-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000467-p.jpg",
+      "name": "SEAL2021_train_00000467-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000467-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000470-p.jpg",
+      "name": "SEAL2021_train_00000470-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000470-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000474-p.jpg",
+      "name": "SEAL2021_train_00000474-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000474-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000481-p.jpg",
+      "name": "SEAL2021_train_00000481-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000481-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000486-p.jpg",
+      "name": "SEAL2021_train_00000486-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000486-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000487-p.jpg",
+      "name": "SEAL2021_train_00000487-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000487-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000488-p.jpg",
+      "name": "SEAL2021_train_00000488-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000488-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000490-p.jpg",
+      "name": "SEAL2021_train_00000490-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000490-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000491-p.jpg",
+      "name": "SEAL2021_train_00000491-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000491-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000493-p.jpg",
+      "name": "SEAL2021_train_00000493-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000493-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000496-p.jpg",
+      "name": "SEAL2021_train_00000496-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000496-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000498-p.jpg",
+      "name": "SEAL2021_train_00000498-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000498-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天益信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000504-p.jpg",
+      "name": "SEAL2021_train_00000504-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000504-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000507-p.jpg",
+      "name": "SEAL2021_train_00000507-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000507-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000509-p.jpg",
+      "name": "SEAL2021_train_00000509-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000509-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000510-p.jpg",
+      "name": "SEAL2021_train_00000510-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000510-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000515-p.jpg",
+      "name": "SEAL2021_train_00000515-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000515-p.jpg",
+      "annotated": true,
+      "groups": [
+        "菊风公司信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000517-p.jpg",
+      "name": "SEAL2021_train_00000517-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000517-p.jpg",
+      "annotated": true,
+      "groups": [
+        "菊风公司信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000519-p.jpg",
+      "name": "SEAL2021_train_00000519-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000519-p.jpg",
+      "annotated": true,
+      "groups": [
+        "菊风公司信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000521-p.jpg",
+      "name": "SEAL2021_train_00000521-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000521-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000522-p.jpg",
+      "name": "SEAL2021_train_00000522-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000522-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000524-p.jpg",
+      "name": "SEAL2021_train_00000524-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000524-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000528-p.jpg",
+      "name": "SEAL2021_train_00000528-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000528-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000529-p.jpg",
+      "name": "SEAL2021_train_00000529-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000529-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000530-p.jpg",
+      "name": "SEAL2021_train_00000530-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000530-p.jpg",
+      "annotated": true,
+      "groups": [
+        "巨奥传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000540-p.jpg",
+      "name": "SEAL2021_train_00000540-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000540-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000541-p.jpg",
+      "name": "SEAL2021_train_00000541-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000541-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000546-p.jpg",
+      "name": "SEAL2021_train_00000546-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000546-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000551-p.jpg",
+      "name": "SEAL2021_train_00000551-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000551-p.jpg",
+      "annotated": true,
+      "groups": [
+        "维旺明网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000553-p.jpg",
+      "name": "SEAL2021_train_00000553-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000553-p.jpg",
+      "annotated": true,
+      "groups": [
+        "富罳网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000554-p.jpg",
+      "name": "SEAL2021_train_00000554-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000554-p.jpg",
+      "annotated": true,
+      "groups": [
+        "富罳网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000557-p.jpg",
+      "name": "SEAL2021_train_00000557-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000557-p.jpg",
+      "annotated": true,
+      "groups": [
+        "同兴万点科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000559-p.jpg",
+      "name": "SEAL2021_train_00000559-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000559-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000560-p.jpg",
+      "name": "SEAL2021_train_00000560-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000560-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000563-p.jpg",
+      "name": "SEAL2021_train_00000563-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000563-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天益信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000565-p.jpg",
+      "name": "SEAL2021_train_00000565-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000565-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天益信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000567-p.jpg",
+      "name": "SEAL2021_train_00000567-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000567-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天益信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000575-p.jpg",
+      "name": "SEAL2021_train_00000575-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000575-p.jpg",
+      "annotated": true,
+      "groups": [
+        "维涛信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000578-p.jpg",
+      "name": "SEAL2021_train_00000578-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000578-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华泰通安传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000582-p.jpg",
+      "name": "SEAL2021_train_00000582-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000582-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华泰通安传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000583-p.jpg",
+      "name": "SEAL2021_train_00000583-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000583-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华泰通安传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000585-p.jpg",
+      "name": "SEAL2021_train_00000585-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000585-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000588-p.jpg",
+      "name": "SEAL2021_train_00000588-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000588-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000596-p.jpg",
+      "name": "SEAL2021_train_00000596-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000596-p.jpg",
+      "annotated": true,
+      "groups": [
+        "维旺明网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000605-p.jpg",
+      "name": "SEAL2021_train_00000605-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000605-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000607-p.jpg",
+      "name": "SEAL2021_train_00000607-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000607-p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000611-p.jpg",
+      "name": "SEAL2021_train_00000611-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000611-p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000612-p.jpg",
+      "name": "SEAL2021_train_00000612-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000612-p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000615-p.jpg",
+      "name": "SEAL2021_train_00000615-p.jpg",
+      "relPath": "WSY/SEAL2021_train_00000615-p.jpg",
+      "annotated": true,
+      "groups": [
+        "晖来计算机网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000702.jpg",
+      "name": "SEAL2021_train_00000702.jpg",
+      "relPath": "WSY/SEAL2021_train_00000702.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000709.jpg",
+      "name": "SEAL2021_train_00000709.jpg",
+      "relPath": "WSY/SEAL2021_train_00000709.jpg",
+      "annotated": true,
+      "groups": [
+        "同兴万点网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000717.jpg",
+      "name": "SEAL2021_train_00000717.jpg",
+      "relPath": "WSY/SEAL2021_train_00000717.jpg",
+      "annotated": true,
+      "groups": [
+        "富罳传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000722.jpg",
+      "name": "SEAL2021_train_00000722.jpg",
+      "relPath": "WSY/SEAL2021_train_00000722.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000733.jpg",
+      "name": "SEAL2021_train_00000733.jpg",
+      "relPath": "WSY/SEAL2021_train_00000733.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000738.jpg",
+      "name": "SEAL2021_train_00000738.jpg",
+      "relPath": "WSY/SEAL2021_train_00000738.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000749.jpg",
+      "name": "SEAL2021_train_00000749.jpg",
+      "relPath": "WSY/SEAL2021_train_00000749.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000751.jpg",
+      "name": "SEAL2021_train_00000751.jpg",
+      "relPath": "WSY/SEAL2021_train_00000751.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000754.jpg",
+      "name": "SEAL2021_train_00000754.jpg",
+      "relPath": "WSY/SEAL2021_train_00000754.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_train_00000756.jpg",
+      "name": "SEAL2021_train_00000756.jpg",
+      "relPath": "WSY/SEAL2021_train_00000756.jpg",
+      "annotated": true,
+      "groups": [
+        "晖来计算机网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000006-p.jpg",
+      "name": "SEAL2021_val_00000006-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000006-p.jpg",
+      "annotated": true,
+      "groups": [
+        "艾提科信传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000010-p.jpg",
+      "name": "SEAL2021_val_00000010-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000010-p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000012-p.jpg",
+      "name": "SEAL2021_val_00000012-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000012-p.jpg",
+      "annotated": true,
+      "groups": [
+        "良诺网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000016-p.jpg",
+      "name": "SEAL2021_val_00000016-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000016-p.jpg",
+      "annotated": true,
+      "groups": [
+        "东方峻景网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000019-p.jpg",
+      "name": "SEAL2021_val_00000019-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000019-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000025-p.jpg",
+      "name": "SEAL2021_val_00000025-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000025-p.jpg",
+      "annotated": true,
+      "groups": [
+        "同兴万点科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000028-p.jpg",
+      "name": "SEAL2021_val_00000028-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000028-p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_亚那就专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000031-p.jpg",
+      "name": "SEAL2021_val_00000031-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000031-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联软科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000041-p.jpg",
+      "name": "SEAL2021_val_00000041-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000041-p.jpg",
+      "annotated": true,
+      "groups": [
+        "合联电子科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000045-p.jpg",
+      "name": "SEAL2021_val_00000045-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000045-p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000046-p.jpg",
+      "name": "SEAL2021_val_00000046-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000046-p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000053-p.jpg",
+      "name": "SEAL2021_val_00000053-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000053-p.jpg",
+      "annotated": true,
+      "groups": [
+        "东方峻景网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000055-p.jpg",
+      "name": "SEAL2021_val_00000055-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000055-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000056-p.jpg",
+      "name": "SEAL2021_val_00000056-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000056-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000057-p.jpg",
+      "name": "SEAL2021_val_00000057-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000057-p.jpg",
+      "annotated": true,
+      "groups": [
+        "精芯传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000058-p.jpg",
+      "name": "SEAL2021_val_00000058-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000058-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000060-p.jpg",
+      "name": "SEAL2021_val_00000060-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000060-p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000063-p.jpg",
+      "name": "SEAL2021_val_00000063-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000063-p.jpg",
+      "annotated": true,
+      "groups": [
+        "东方峻景网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000066-p.jpg",
+      "name": "SEAL2021_val_00000066-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000066-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创汇网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000071-p.jpg",
+      "name": "SEAL2021_val_00000071-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000071-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000075-p.jpg",
+      "name": "SEAL2021_val_00000075-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000075-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000079-p.jpg",
+      "name": "SEAL2021_val_00000079-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000079-p.jpg",
+      "annotated": true,
+      "groups": [
+        "中建创业传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000083-p.jpg",
+      "name": "SEAL2021_val_00000083-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000083-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000084-p.jpg",
+      "name": "SEAL2021_val_00000084-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000084-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000085-p.jpg",
+      "name": "SEAL2021_val_00000085-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000085-p.jpg",
+      "annotated": true,
+      "groups": [
+        "同兴万点科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000087-p.jpg",
+      "name": "SEAL2021_val_00000087-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000087-p.jpg",
+      "annotated": true,
+      "groups": [
+        "同兴万点科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000088-p.jpg",
+      "name": "SEAL2021_val_00000088-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000088-p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000089-p.jpg",
+      "name": "SEAL2021_val_00000089-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000089-p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000091-p.jpg",
+      "name": "SEAL2021_val_00000091-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000091-p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000094-p.jpg",
+      "name": "SEAL2021_val_00000094-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000094-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000095-p.jpg",
+      "name": "SEAL2021_val_00000095-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000095-p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000097-p.jpg",
+      "name": "SEAL2021_val_00000097-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000097-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000098-p.jpg",
+      "name": "SEAL2021_val_00000098-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000098-p.jpg",
+      "annotated": true,
+      "groups": [
+        "中建创业传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000107-p.jpg",
+      "name": "SEAL2021_val_00000107-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000107-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000109-p.jpg",
+      "name": "SEAL2021_val_00000109-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000109-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000111-p.jpg",
+      "name": "SEAL2021_val_00000111-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000111-p.jpg",
+      "annotated": true,
+      "groups": [
+        "精芯传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000113-p.jpg",
+      "name": "SEAL2021_val_00000113-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000113-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000117-p.jpg",
+      "name": "SEAL2021_val_00000117-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000117-p.jpg",
+      "annotated": true,
+      "groups": [
+        "良诺网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000120-p.jpg",
+      "name": "SEAL2021_val_00000120-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000120-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺依曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000122-p.jpg",
+      "name": "SEAL2021_val_00000122-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000122-p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000124-p.jpg",
+      "name": "SEAL2021_val_00000124-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000124-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂歌信息网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000127-p.jpg",
+      "name": "SEAL2021_val_00000127-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000127-p.jpg",
+      "annotated": true,
+      "groups": [
+        "南康信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000129-p.jpg",
+      "name": "SEAL2021_val_00000129-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000129-p.jpg",
+      "annotated": true,
+      "groups": [
+        "良诺网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000133-p.jpg",
+      "name": "SEAL2021_val_00000133-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000133-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000137-p.jpg",
+      "name": "SEAL2021_val_00000137-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000137-p.jpg",
+      "annotated": true,
+      "groups": [
+        "精芯传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000139-p.jpg",
+      "name": "SEAL2021_val_00000139-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000139-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000143-p.jpg",
+      "name": "SEAL2021_val_00000143-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000143-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000144-p.jpg",
+      "name": "SEAL2021_val_00000144-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000144-p.jpg",
+      "annotated": true,
+      "groups": [
+        "维旺明网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000146-p.jpg",
+      "name": "SEAL2021_val_00000146-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000146-p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000148-p.jpg",
+      "name": "SEAL2021_val_00000148-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000148-p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000149-p.jpg",
+      "name": "SEAL2021_val_00000149-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000149-p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000153-p.jpg",
+      "name": "SEAL2021_val_00000153-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000153-p.jpg",
+      "annotated": true,
+      "groups": [
+        "同兴万点网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000154-p.jpg",
+      "name": "SEAL2021_val_00000154-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000154-p.jpg",
+      "annotated": true,
+      "groups": [
+        "晖来计算机网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000156-p.jpg",
+      "name": "SEAL2021_val_00000156-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000156-p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000159-p.jpg",
+      "name": "SEAL2021_val_00000159-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000159-p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000161-p.jpg",
+      "name": "SEAL2021_val_00000161-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000161-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000162-p.jpg",
+      "name": "SEAL2021_val_00000162-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000162-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000164-p.jpg",
+      "name": "SEAL2021_val_00000164-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000164-p.jpg",
+      "annotated": true,
+      "groups": [
+        "戴硕电子网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000168-p.jpg",
+      "name": "SEAL2021_val_00000168-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000168-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新宇龙信息网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000169-p.jpg",
+      "name": "SEAL2021_val_00000169-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000169-p.jpg",
+      "annotated": true,
+      "groups": [
+        "东方峻景网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000172-p.jpg",
+      "name": "SEAL2021_val_00000172-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000172-p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000173-p.jpg",
+      "name": "SEAL2021_val_00000173-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000173-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞海科技传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000175-p.jpg",
+      "name": "SEAL2021_val_00000175-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000175-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000179-p.jpg",
+      "name": "SEAL2021_val_00000179-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000179-p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000184-p.jpg",
+      "name": "SEAL2021_val_00000184-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000184-p.jpg",
+      "annotated": true,
+      "groups": [
+        "合联电子科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000188-p.jpg",
+      "name": "SEAL2021_val_00000188-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000188-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000195-p.jpg",
+      "name": "SEAL2021_val_00000195-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000195-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新宇龙信息网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "WSY/SEAL2021_val_00000198-p.jpg",
+      "name": "SEAL2021_val_00000198-p.jpg",
+      "relPath": "WSY/SEAL2021_val_00000198-p.jpg",
+      "annotated": true,
+      "groups": [
+        "浦华众城科技有限公司_研究专用"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "name": "艾提科信传媒有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000011_p.jpg",
+        "WSY/SEAL2021_test_000000209_p.jpg",
+        "WSY/SEAL2021_train_00000015-p.jpg",
+        "WSY/SEAL2021_train_00000069-p.jpg",
+        "WSY/SEAL2021_val_00000006-p.jpg"
+      ]
+    },
+    {
+      "name": "诺依曼软件科技有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000012_p.jpg",
+        "WSY/SEAL2021_train_00000009-p.jpg",
+        "WSY/SEAL2021_train_00000029-p.jpg",
+        "WSY/SEAL2021_train_00000122-p.jpg",
+        "WSY/SEAL2021_train_00000266-p.jpg",
+        "WSY/SEAL2021_train_00000269-p.jpg",
+        "WSY/SEAL2021_val_00000055-p.jpg",
+        "WSY/SEAL2021_val_00000120-p.jpg"
+      ]
+    },
+    {
+      "name": "华泰通安科技有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000013_p.jpg",
+        "WSY/SEAL2021_test_000000216_p.jpg"
+      ]
+    },
+    {
+      "name": "联通时科科技有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000019_p.jpg",
+        "WSY/SEAL2021_test_000000111_p.jpg",
+        "WSY/SEAL2021_test_000000174_p.jpg",
+        "WSY/SEAL2021_test_000000390_p.jpg",
+        "WSY/SEAL2021_train_00000016-p.jpg",
+        "WSY/SEAL2021_val_00000175-p.jpg"
+      ]
+    },
+    {
+      "name": "凌云科技有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_00000001_p.jpg",
+        "WSY/SEAL2021_test_000000024_p.jpg",
+        "WSY/SEAL2021_train_00000123-p.jpg"
+      ]
+    },
+    {
+      "name": "群英传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_00000002_p.jpg",
+        "WSY/SEAL2021_test_000000242_p.jpg",
+        "WSY/SEAL2021_train_00000035-p.jpg",
+        "WSY/SEAL2021_train_00000151-p.jpg",
+        "WSY/SEAL2021_val_00000060-p.jpg",
+        "WSY/SEAL2021_val_00000122-p.jpg",
+        "WSY/SEAL2021_val_00000146-p.jpg",
+        "WSY/SEAL2021_val_00000156-p.jpg"
+      ]
+    },
+    {
+      "name": "昊嘉传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_00000003_p..jpg",
+        "WSY/SEAL2021_train_00000003-p.jpg",
+        "WSY/SEAL2021_train_00000010-p.jpg",
+        "WSY/SEAL2021_train_00000038-p.jpg",
+        "WSY/SEAL2021_train_00000155-p.jpg",
+        "WSY/SEAL2021_val_00000109-p.jpg",
+        "WSY/SEAL2021_val_00000139-p.jpg"
+      ]
+    },
+    {
+      "name": "迪摩网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000094_p.jpg",
+        "WSY/SEAL2021_test_000000137_p.jpg",
+        "WSY/SEAL2021_test_000000159_p.jpg",
+        "WSY/SEAL2021_test_000000187_p.jpg"
+      ]
+    },
+    {
+      "name": "襄樊地球村信息有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000097_p.jpg",
+        "WSY/SEAL2021_test_000000161_p.jpg",
+        "WSY/SEAL2021_test_000000191_p.jpg",
+        "WSY/SEAL2021_val_00000179-p.jpg",
+        "WSY/SEAL2021_val_00000149-p.jpg",
+        "WSY/SEAL2021_val_00000045-p.jpg"
+      ]
+    },
+    {
+      "name": "东方峻景网络有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_00000009_p.jpg",
+        "WSY/SEAL2021_val_00000016-p.jpg",
+        "WSY/SEAL2021_val_00000063-p.jpg"
+      ]
+    },
+    {
+      "name": "双敏电子传媒有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000100_p.jpg",
+        "WSY/SEAL2021_val_00000046-p.jpg"
+      ]
+    },
+    {
+      "name": "太极传媒有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000101_p.jpg",
+        "WSY/SEAL2021_test_000000163_p.jpg"
+      ]
+    },
+    {
+      "name": "易动力信息有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000102_p.jpg",
+        "WSY/SEAL2021_test_000000186_p.jpg"
+      ]
+    },
+    {
+      "name": "太极科技有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000115_p.jpg",
+        "WSY/SEAL2021_test_000000116_p.jpg",
+        "WSY/SEAL2021_test_000000136_p.jpg",
+        "WSY/SEAL2021_test_000000207_p.jpg",
+        "WSY/SEAL2021_test_000000394_p.jpg",
+        "WSY/SEAL2021_train_00000347-p.jpg"
+      ]
+    },
+    {
+      "name": "易动力传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000112_p.jpg",
+        "WSY/SEAL2021_test_000000134_p.jpg",
+        "WSY/SEAL2021_test_000000142_p.jpg",
+        "WSY/SEAL2021_test_000000162_p.jpg",
+        "WSY/SEAL2021_test_000000192_p.jpg",
+        "WSY/SEAL2021_test_000000356_p.jpg",
+        "WSY/SEAL2021_test_000000431_p.jpg",
+        "WSY/SEAL2021_train_00000607-p.jpg",
+        "WSY/SEAL2021_val_00000172-p.jpg"
+      ]
+    },
+    {
+      "name": "新格林耐特信息有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000103_p.jpg",
+        "WSY/SEAL2021_test_000000126_p.jpg",
+        "WSY/SEAL2021_test_000000363_p.jpg",
+        "WSY/SEAL2021_train_00000359-p.jpg",
+        "WSY/SEAL2021_test_000000382_p.jpg",
+        "WSY/SEAL2021_test_000000406_p.jpg"
+      ]
+    },
+    {
+      "name": "浦华众城科技有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000105_p.jpg",
+        "WSY/SEAL2021_test_000000384_p.jpg",
+        "WSY/SEAL2021_test_000000411_p.jpg",
+        "WSY/SEAL2021_test_000000412_p.jpg",
+        "WSY/SEAL2021_test_000000414_p.jpg",
+        "WSY/SEAL2021_val_00000198-p.jpg"
+      ]
+    },
+    {
+      "name": "浦华众城传媒有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000114_p.jpg",
+        "WSY/SEAL2021_test_000000135_p.jpg",
+        "WSY/SEAL2021_train_00000351-p.jpg"
+      ]
+    },
+    {
+      "name": "新宇龙信息信息有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000120_p.jpg"
+      ]
+    },
+    {
+      "name": "合联电子科技有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000121_p.jpg",
+        "WSY/SEAL2021_test_000000143_p.jpg",
+        "WSY/SEAL2021_test_000000184_p.jpg",
+        "WSY/SEAL2021_test_000000194_p.jpg",
+        "WSY/SEAL2021_val_00000041-p.jpg",
+        "WSY/SEAL2021_val_00000184-p.jpg"
+      ]
+    },
+    {
+      "name": "鑫博腾飞信息有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000129_p.jpg",
+        "WSY/SEAL2021_test_000000168_p.jpg",
+        "WSY/SEAL2021_test_000000415_p.jpg"
+      ]
+    },
+    {
+      "name": "网新恒天传媒有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000138_p.jpg",
+        "WSY/SEAL2021_val_00000188-p.jpg"
+      ]
+    },
+    {
+      "name": "立信电子信息有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000148_p.jpg",
+        "WSY/SEAL2021_test_000000409_p.jpg"
+      ]
+    },
+    {
+      "name": "新宇龙信息网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000152_p.jpg",
+        "WSY/SEAL2021_test_000000171_p.jpg",
+        "WSY/SEAL2021_val_00000168-p.jpg",
+        "WSY/SEAL2021_val_00000195-p.jpg"
+      ]
+    },
+    {
+      "name": "东方峻景网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000153_p.jpg",
+        "WSY/SEAL2021_test_000000420_p.jpg",
+        "WSY/SEAL2021_val_00000053-p.jpg",
+        "WSY/SEAL2021_val_00000169-p.jpg"
+      ]
+    },
+    {
+      "name": "富罳网络有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000169_p.jpg"
+      ]
+    },
+    {
+      "name": "天开传媒有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000173_p.jpg",
+        "WSY/SEAL2021_test_000000423_p.jpg"
+      ]
+    },
+    {
+      "name": "国讯科技有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000180_p.jpg"
+      ]
+    },
+    {
+      "name": "飞海科技传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000197_p.jpg",
+        "WSY/SEAL2021_test_000000361_p.jpg",
+        "WSY/SEAL2021_test_000000380_p.jpg",
+        "WSY/SEAL2021_val_00000173-p.jpg"
+      ]
+    },
+    {
+      "name": "网新恒天信息有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000212_p.jpg",
+        "WSY/SEAL2021_test_000000213_p.jpg",
+        "WSY/SEAL2021_test_000000270_p.jpg",
+        "WSY/SEAL2021_test_000000231_p.jpg",
+        "WSY/SEAL2021_train_00000004-p.jpg",
+        "WSY/SEAL2021_train_00000061-p.jpg",
+        "WSY/SEAL2021_train_00000284-p.jpg",
+        "WSY/SEAL2021_train_00000329-p.jpg",
+        "WSY/SEAL2021_train_00000749.jpg",
+        "WSY/SEAL2021_val_00000094-p.jpg",
+        "WSY/SEAL2021_val_00000083-p.jpg",
+        "WSY/SEAL2021_val_00000084-p.jpg"
+      ]
+    },
+    {
+      "name": "昂歌信息网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000236_p.jpg",
+        "WSY/SEAL2021_test_000000238_p.jpg",
+        "WSY/SEAL2021_train_00000115-p.jpg",
+        "WSY/SEAL2021_val_00000124-p.jpg"
+      ]
+    },
+    {
+      "name": "襄樊地球村传媒有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000229_p.jpg",
+        "WSY/SEAL2021_train_00000124-p.jpg",
+        "WSY/SEAL2021_train_00000140-p.jpg",
+        "WSY/SEAL2021_train_00000160-p.jpg",
+        "WSY/SEAL2021_val_00000095-p.jpg"
+      ]
+    },
+    {
+      "name": "中建创业传媒有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000225_p.jpg",
+        "WSY/SEAL2021_val_00000079-p.jpg",
+        "WSY/SEAL2021_val_00000098-p.jpg"
+      ]
+    },
+    {
+      "name": "网新恒天网络有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000288_p.jpg",
+        "WSY/SEAL2021_test_000000282_p.jpg",
+        "WSY/SEAL2021_test_000000318_p.jpg",
+        "WSY/SEAL2021_train_00000309-p.jpg",
+        "WSY/SEAL2021_train_00000310-p.jpg"
+      ]
+    },
+    {
+      "name": "襄樊地球村信息有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000299_p.jpg",
+        "WSY/SEAL2021_test_000000269_p.jpg",
+        "WSY/SEAL2021_train_00000702.jpg",
+        "WSY/SEAL2021_train_00000722.jpg"
+      ]
+    },
+    {
+      "name": "同心万点科技有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000230_p.jpg"
+      ]
+    },
+    {
+      "name": "戴硕电子网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000251_p.jpg",
+        "WSY/SEAL2021_test_000000333_p.jpg",
+        "WSY/SEAL2021_val_00000164-p.jpg"
+      ]
+    },
+    {
+      "name": "富罳网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000253_p.jpg",
+        "WSY/SEAL2021_test_000000339_p.jpg",
+        "WSY/SEAL2021_train_00000337-p.jpg",
+        "WSY/SEAL2021_train_00000553-p.jpg",
+        "WSY/SEAL2021_train_00000554-p.jpg"
+      ]
+    },
+    {
+      "name": "昂歌信息传媒有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000268_p.jpg",
+        "WSY/SEAL2021_test_000000340_p.jpg",
+        "WSY/SEAL2021_train_00000283-p.jpg",
+        "WSY/SEAL2021_train_00000328-p.jpg",
+        "WSY/SEAL2021_train_00000559-p.jpg",
+        "WSY/SEAL2021_train_00000605-p.jpg"
+      ]
+    },
+    {
+      "name": "惠派国际公司网络有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000306_p.jpg",
+        "WSY/SEAL2021_test_000000292_p.jpg",
+        "WSY/SEAL2021_test_000000276_p.jpg",
+        "WSY/SEAL2021_train_00000546-p.jpg",
+        "WSY/SEAL2021_train_00000560-p.jpg",
+        "WSY/SEAL2021_train_00000751.jpg"
+      ]
+    },
+    {
+      "name": "同心万点网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000273_p.jpg"
+      ]
+    },
+    {
+      "name": "维旺明网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000294_p.jpg",
+        "WSY/SEAL2021_train_00000551-p.jpg",
+        "WSY/SEAL2021_train_00000596-p.jpg",
+        "WSY/SEAL2021_val_00000144-p.jpg"
+      ]
+    },
+    {
+      "name": "维涛科技有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000302_p.jpg",
+        "WSY/SEAL2021_train_00000323-p.jpg"
+      ]
+    },
+    {
+      "name": "惠派国际公司传媒有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000081-p.jpg",
+        "WSY/SEAL2021_train_00000080-p.jpg",
+        "WSY/SEAL2021_train_00000171-p.jpg",
+        "WSY/SEAL2021_train_00000419-p.jpg",
+        "WSY/SEAL2021_train_00000420-p.jpg",
+        "WSY/SEAL2021_train_00000416-p.jpg"
+      ]
+    },
+    {
+      "name": "黄石金承网络有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000094-p.jpg",
+        "WSY/SEAL2021_train_00000096-p.jpg"
+      ]
+    },
+    {
+      "name": "晖来计算机信息有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000111-p.jpg",
+        "WSY/SEAL2021_train_00000108-p.jpg",
+        "WSY/SEAL2021_train_00000075-p.jpg",
+        "WSY/SEAL2021_train_00000412-p.jpg"
+      ]
+    },
+    {
+      "name": "商软冠联网络有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000106-p.jpg",
+        "WSY/SEAL2021_train_00000105-p.jpg",
+        "WSY/SEAL2021_train_00000104-p.jpg",
+        "WSY/SEAL2021_train_00000254-p.jpg",
+        "WSY/SEAL2021_train_00000255-p.jpg",
+        "WSY/SEAL2021_train_00000282-p.jpg",
+        "WSY/SEAL2021_train_00000379-p.jpg",
+        "WSY/SEAL2021_train_00000380-p.jpg",
+        "WSY/SEAL2021_train_00000486-p.jpg",
+        "WSY/SEAL2021_train_00000487-p.jpg",
+        "WSY/SEAL2021_train_00000488-p.jpg"
+      ]
+    },
+    {
+      "name": "诺依曼软件传媒有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000275_p.jpg",
+        "WSY/SEAL2021_train_00000290-p.jpg",
+        "WSY/SEAL2021_train_00000541-p.jpg"
+      ]
+    },
+    {
+      "name": "飞科信信息有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000217_p.jpg"
+      ]
+    },
+    {
+      "name": "巨奥传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000284_p.jpg",
+        "WSY/SEAL2021_test_000000308_p.jpg",
+        "WSY/SEAL2021_train_00000305-p.jpg",
+        "WSY/SEAL2021_train_00000530-p.jpg"
+      ]
+    },
+    {
+      "name": "双敏电子网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000290_p.jpg",
+        "WSY/SEAL2021_train_00000295-p.jpg",
+        "WSY/SEAL2021_train_00000318-p.jpg"
+      ]
+    },
+    {
+      "name": "新格林耐特科技有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000305_p.jpg",
+        "WSY/SEAL2021_val_00000161-p.jpg",
+        "WSY/SEAL2021_val_00000162-p.jpg",
+        "WSY/SEAL2021_val_00000143-p.jpg"
+      ]
+    },
+    {
+      "name": "联通时科信息有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000322_p.jpg",
+        "WSY/SEAL2021_test_000000307_p.jpg",
+        "WSY/SEAL2021_train_00000327-p.jpg",
+        "WSY/SEAL2021_train_00000304-p.jpg",
+        "WSY/SEAL2021_train_00000528-p.jpg",
+        "WSY/SEAL2021_train_00000529-p.jpg"
+      ]
+    },
+    {
+      "name": "信诚致远传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_test_000000316_p.jpg",
+        "WSY/SEAL2021_test_000000317_p.jpg",
+        "WSY/SEAL2021_train_00000234-p.jpg",
+        "WSY/SEAL2021_train_00000235-p.jpg",
+        "WSY/SEAL2021_train_00000236-p.jpg",
+        "WSY/SEAL2021_train_00000237-p.jpg"
+      ]
+    },
+    {
+      "name": "银嘉信息有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000327_p.jpg"
+      ]
+    },
+    {
+      "name": "精芯传媒有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000314_p.jpg",
+        "WSY/SEAL2021_train_00000026-p.jpg",
+        "WSY/SEAL2021_train_00000156-p.jpg",
+        "WSY/SEAL2021_train_00000307-p.jpg",
+        "WSY/SEAL2021_train_00000299-p.jpg",
+        "WSY/SEAL2021_val_00000031-p.jpg",
+        "WSY/SEAL2021_val_00000057-p.jpg",
+        "WSY/SEAL2021_val_00000111-p.jpg",
+        "WSY/SEAL2021_val_00000137-p.jpg"
+      ]
+    },
+    {
+      "name": "晖来计算机网络有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_test_000000336_p.jpg",
+        "WSY/SEAL2021_train_00000615-p.jpg",
+        "WSY/SEAL2021_train_00000756.jpg",
+        "WSY/SEAL2021_val_00000154-p.jpg"
+      ]
+    },
+    {
+      "name": "群英传媒有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000350_p.jpg",
+        "WSY/SEAL2021_train_00000291-p.jpg",
+        "WSY/SEAL2021_train_00000733.jpg"
+      ]
+    },
+    {
+      "name": "双敏电子网络有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_test_000000351_p.jpg",
+        "WSY/SEAL2021_train_00000286-p.jpg",
+        "WSY/SEAL2021_train_00000611-p.jpg",
+        "WSY/SEAL2021_train_00000612-p.jpg",
+        "WSY/SEAL2021_train_00000754.jpg",
+        "WSY/SEAL2021_val_00000148-p.jpg"
+      ]
+    },
+    {
+      "name": "飞利信科技有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000424-p.jpg",
+        "WSY/SEAL2021_train_00000423-p.jpg",
+        "WSY/SEAL2021_train_00000421-p.jpg",
+        "WSY/SEAL2021_train_00000172-p.jpg",
+        "WSY/SEAL2021_train_00000173-p.jpg",
+        "WSY/SEAL2021_train_00000174-p.jpg",
+        "WSY/SEAL2021_train_00000176-p.jpg"
+      ]
+    },
+    {
+      "name": "天益信息有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000270-p.jpg",
+        "WSY/SEAL2021_train_00000273-p.jpg",
+        "WSY/SEAL2021_train_00000498-p.jpg",
+        "WSY/SEAL2021_train_00000540-p.jpg",
+        "WSY/SEAL2021_train_00000565-p.jpg",
+        "WSY/SEAL2021_train_00000563-p.jpg",
+        "WSY/SEAL2021_train_00000567-p.jpg"
+      ]
+    },
+    {
+      "name": "昂歌信息信息有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000396-p.jpg",
+        "WSY/SEAL2021_train_00000399-p.jpg",
+        "WSY/SEAL2021_train_00000244-p.jpg"
+      ]
+    },
+    {
+      "name": "快讯网络有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000006-p.jpg",
+        "WSY/SEAL2021_train_00000030-p.jpg",
+        "WSY/SEAL2021_test_000000390_p.jpg",
+        "WSY/SEAL2021_train_00000144-p.jpg",
+        "WSY/SEAL2021_val_00000019-p.jpg",
+        "WSY/SEAL2021_val_00000071-p.jpg"
+      ]
+    },
+    {
+      "name": "创联世纪网络有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000007-p.jpg",
+        "WSY/SEAL2021_train_00000008-p.jpg",
+        "WSY/SEAL2021_val_00000058-p.jpg"
+      ]
+    },
+    {
+      "name": "鸿睿思博信息有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000032-p.jpg",
+        "WSY/SEAL2021_train_00000054-p.jpg"
+      ]
+    },
+    {
+      "name": "太极信息有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000037-p.jpg",
+        "WSY/SEAL2021_train_00000042-p.jpg",
+        "WSY/SEAL2021_train_00000218-p.jpg",
+        "WSY/SEAL2021_val_00000010-p.jpg",
+        "WSY/SEAL2021_val_00000088-p.jpg",
+        "WSY/SEAL2021_val_00000089-p.jpg",
+        "WSY/SEAL2021_val_00000091-p.jpg"
+      ]
+    },
+    {
+      "name": "飞利信信息有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000039-p.jpg",
+        "WSY/SEAL2021_train_00000157-p.jpg",
+        "WSY/SEAL2021_val_00000056-p.jpg",
+        "WSY/SEAL2021_val_00000075-p.jpg",
+        "WSY/SEAL2021_val_00000107-p.jpg"
+      ]
+    },
+    {
+      "name": "良诺网络有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000056-p.jpg",
+        "WSY/SEAL2021_val_00000012-p.jpg",
+        "WSY/SEAL2021_val_00000117-p.jpg",
+        "WSY/SEAL2021_val_00000129-p.jpg"
+      ]
+    },
+    {
+      "name": "同兴万点科技有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000072-p.jpg",
+        "WSY/SEAL2021_train_00000133-p.jpg",
+        "WSY/SEAL2021_train_00000557-p.jpg",
+        "WSY/SEAL2021_val_00000025-p.jpg",
+        "WSY/SEAL2021_val_00000087-p.jpg",
+        "WSY/SEAL2021_val_00000085-p.jpg"
+      ]
+    },
+    {
+      "name": "新格林耐特网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000118-p.jpg",
+        "WSY/SEAL2021_train_00000137-p.jpg",
+        "WSY/SEAL2021_train_00000147-p.jpg",
+        "WSY/SEAL2021_train_00000168-p.jpg",
+        "WSY/SEAL2021_train_00000211-p.jpg",
+        "WSY/SEAL2021_val_00000097-p.jpg"
+      ]
+    },
+    {
+      "name": "昊嘉传媒有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000125-p.jpg",
+        "WSY/SEAL2021_train_00000148-p.jpg",
+        "WSY/SEAL2021_train_00000213-p.jpg"
+      ]
+    },
+    {
+      "name": "新格林耐特信息有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000184-p.jpg",
+        "WSY/SEAL2021_train_00000185-p.jpg",
+        "WSY/SEAL2021_train_00000464-p.jpg",
+        "WSY/SEAL2021_train_00000467-p.jpg"
+      ]
+    },
+    {
+      "name": "商软冠联传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000188-p.jpg",
+        "WSY/SEAL2021_train_00000189-p.jpg",
+        "WSY/SEAL2021_train_00000190-p.jpg",
+        "WSY/SEAL2021_train_00000470-p.jpg",
+        "WSY/SEAL2021_train_00000474-p.jpg"
+      ]
+    },
+    {
+      "name": "昂歌信息网络有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000194-p.jpg",
+        "WSY/SEAL2021_train_00000303-p.jpg",
+        "WSY/SEAL2021_train_00000481-p.jpg",
+        "WSY/SEAL2021_train_00000496-p.jpg",
+        "WSY/SEAL2021_train_00000738.jpg"
+      ]
+    },
+    {
+      "name": "浙大万明传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000197-p.jpg",
+        "WSY/SEAL2021_train_00000199-p.jpg",
+        "WSY/SEAL2021_train_00000260-p.jpg"
+      ]
+    },
+    {
+      "name": "天开信息有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000204-p.jpg",
+        "WSY/SEAL2021_train_00000509-p.jpg",
+        "WSY/SEAL2021_train_00000510-p.jpg",
+        "WSY/SEAL2021_train_00000507-p.jpg",
+        "WSY/SEAL2021_train_00000504-p.jpg"
+      ]
+    },
+    {
+      "name": "快讯网络有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000206-p.jpg",
+        "WSY/SEAL2021_val_00000113-p.jpg",
+        "WSY/SEAL2021_val_00000133-p.jpg"
+      ]
+    },
+    {
+      "name": "创汇网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000214-p.jpg",
+        "WSY/SEAL2021_val_00000066-p.jpg"
+      ]
+    },
+    {
+      "name": "创联世纪科技有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000229-p.jpg",
+        "WSY/SEAL2021_train_00000387-p.jpg",
+        "WSY/SEAL2021_train_00000355-p.jpg",
+        "WSY/SEAL2021_train_00000490-p.jpg",
+        "WSY/SEAL2021_train_00000491-p.jpg",
+        "WSY/SEAL2021_train_00000493-p.jpg",
+        "WSY/SEAL2021_train_00000585-p.jpg",
+        "WSY/SEAL2021_train_00000588-p.jpg"
+      ]
+    },
+    {
+      "name": "信诚致远科技有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000230-p.jpg",
+        "WSY/SEAL2021_train_00000233-p.jpg",
+        "WSY/SEAL2021_train_00000389-p.jpg"
+      ]
+    },
+    {
+      "name": "新格林耐特传媒有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000250-p.jpg",
+        "WSY/SEAL2021_train_00000251-p.jpg",
+        "WSY/SEAL2021_train_00000253-p.jpg",
+        "WSY/SEAL2021_train_00000404-p.jpg"
+      ]
+    },
+    {
+      "name": "维涛信息有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000279-p.jpg",
+        "WSY/SEAL2021_train_00000362-p.jpg",
+        "WSY/SEAL2021_train_00000363-p.jpg",
+        "WSY/SEAL2021_train_00000575-p.jpg"
+      ]
+    },
+    {
+      "name": "鸿睿思博网络有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000344-p.jpg",
+        "WSY/SEAL2021_train_00000343-p.jpg"
+      ]
+    },
+    {
+      "name": "华泰通安传媒有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000365-p.jpg",
+        "WSY/SEAL2021_train_00000366-p.jpg",
+        "WSY/SEAL2021_train_00000367-p.jpg",
+        "WSY/SEAL2021_train_00000578-p.jpg",
+        "WSY/SEAL2021_train_00000582-p.jpg",
+        "WSY/SEAL2021_train_00000583-p.jpg"
+      ]
+    },
+    {
+      "name": "襄樊地球村传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000312-p.jpg",
+        "WSY/SEAL2021_val_00000159-p.jpg"
+      ]
+    },
+    {
+      "name": "飞海科技网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000340-p.jpg"
+      ]
+    },
+    {
+      "name": "华远软件科技有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000454-p.jpg",
+        "WSY/SEAL2021_train_00000456-p.jpg",
+        "WSY/SEAL2021_train_00000458-p.jpg",
+        "WSY/SEAL2021_train_00000459-p.jpg",
+        "WSY/SEAL2021_train_00000461-p.jpg"
+      ]
+    },
+    {
+      "name": "昂歌信息科技有限公司_科研专用",
+      "members": [
+        "WSY/SEAL2021_train_00000441-p.jpg"
+      ]
+    },
+    {
+      "name": "菊风公司信息有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000515-p.jpg",
+        "WSY/SEAL2021_train_00000517-p.jpg",
+        "WSY/SEAL2021_train_00000519-p.jpg"
+      ]
+    },
+    {
+      "name": "商软冠联科技有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_train_00000521-p.jpg",
+        "WSY/SEAL2021_train_00000522-p.jpg",
+        "WSY/SEAL2021_train_00000524-p.jpg"
+      ]
+    },
+    {
+      "name": "同兴万点网络有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000709.jpg",
+        "WSY/SEAL2021_val_00000153-p.jpg"
+      ]
+    },
+    {
+      "name": "富罳传媒有限公司_用于研究",
+      "members": [
+        "WSY/SEAL2021_train_00000717.jpg"
+      ]
+    },
+    {
+      "name": "易动力传媒有限公司_亚那就专用",
+      "members": [
+        "WSY/SEAL2021_val_00000028-p.jpg"
+      ]
+    },
+    {
+      "name": "南康信息有限公司_研究专用",
+      "members": [
+        "WSY/SEAL2021_val_00000127-p.jpg"
+      ]
+    }
+  ]
+}

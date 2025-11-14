@@ -1,0 +1,146 @@
+import torch
+import cv2
+import numpy as np
+from transformers import CLIPProcessor, CLIPModel
+from PIL import Image
+from insightface.app import FaceAnalysis
+from ultralytics import YOLOv10
+import os
+
+# 加载CLIP模型和处理器
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
+processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+model.to(device)
+model.load_state_dict(torch.load("best_model_weights.pth"))
+model.eval()
+
+# Prompt簇（疲劳或清醒）
+label_texts = [
+    "a photo of a drowsy person",
+    "a person who is yawning, closing eyes, or nodding off",
+    "a photo of an alert person",
+    "a person sitting upright with eyes wide open, fully attentive"
+]
+
+# 处理文本并计算文本特征
+text_inputs = processor(text=label_texts, return_tensors="pt", padding=True).to(device)
+with torch.no_grad():
+    text_features_all = model.get_text_features(**text_inputs)
+    text_features = torch.stack([
+        text_features_all[:2].mean(dim=0),  # drowsy
+        text_features_all[2:].mean(dim=0)   # alert
+    ])
+    text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+
+# 加载YOLO模型
+yolo_model = YOLOv10("best.pt")
+
+# 初始化 InsightFace 的 Buffalo_L 模型
+face_app = FaceAnalysis(name='buffalo_l', providers=['CUDAExecutionProvider'])
+face_app.prepare(ctx_id=0, det_thresh=0.25)
+
+
+def detect_fatigue_in_faces(image_path, faces):
+    """
+    对指定图像和人脸框进行疲劳检测，返回人头数、每个人头的疲劳检测结果字典、绘制了框和ID的图像。
+    """
+    # 读取图像
+    img = cv2.imread(image_path)
+    img_draw = img.copy()
+
+    fatigue_results = {}
+    person_id = 1
+
+    for face in faces:
+        # 获取检测到的面部框
+        x_min, y_min, x_max, y_max = face
+        cropped_img = img[y_min:y_max, x_min:x_max]
+
+        # 预处理裁剪后的图像
+        cropped_img_pil = Image.fromarray(cropped_img)
+        cropped_img_pil = cropped_img_pil.resize((224, 224))
+        cropped_img_tensor = processor(images=cropped_img_pil, return_tensors="pt").to(device)
+
+        # 获取图像特征
+        with torch.no_grad():
+            image_features = model.get_image_features(pixel_values=cropped_img_tensor.pixel_values)
+            image_features = image_features / image_features.norm(dim=-1, keepdim=True)
+
+            # 计算与文本描述的相似度
+            logits_per_image = image_features @ text_features.T
+            pred_label = logits_per_image.argmax(dim=1).item()
+
+        # 判断疲劳状态（drowsy 或 alert）
+        fatigue_status = "Drowsy" if pred_label == 0 else "Alert"
+        fatigue_results[person_id] = fatigue_status
+
+        # 在图像上绘制人脸框和ID
+        cv2.rectangle(img_draw, (x_min, y_min), (x_max, y_max), (0, 0, 255), 2)
+        cv2.putText(img_draw, f"Person_{person_id}",
+                    (x_min, y_min - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 255), 2)
+
+        # 判断疲劳状态，添加透明矩形框
+        if fatigue_status == "Drowsy":
+            overlay_transparent_rectangle(img_draw, (x_min, y_min), (x_max, y_max))
+
+        person_id += 1
+
+    # 返回结果：人头数、每个人头的疲劳状态字典和绘制后的图像
+    return len(fatigue_results), fatigue_results, img_draw
+
+
+def overlay_transparent_rectangle(img, top_left, bottom_right, transparency=0.25):
+    """在图像上绘制透明的红色矩形框。"""
+    x_min, y_min = top_left
+    x_max, y_max = bottom_right
+
+    # 创建一个透明的红色矩形
+    overlay = img.copy()
+    cv2.rectangle(overlay, (x_min, y_min), (x_max, y_max), (0, 0, 255), -1)
+
+    # 结合原图和透明矩形
+    cv2.addWeighted(overlay, transparency, img, 1 - transparency, 0, img)
+
+
+def detect_faces_in_image(img_path):
+    """
+    对单张图像进行人头检测、疲劳检测、绘制ID，并返回相应结果。
+    """
+    # 使用YOLOv10进行推理，检测人头区域
+    results = yolo_model(img_path, classes=[0], conf=0.6)[0]
+
+    # 获取检测到的面部框
+    face_boxes = []
+    for box in results.boxes.data:
+        x_min, y_min, x_max, y_max, conf = box[:5]
+        face_boxes.append((int(x_min), int(y_min), int(x_max), int(y_max)))
+
+    # 对图像进行疲劳检测，并返回检测结果
+    head_count, fatigue_results, img_with_boxes = detect_fatigue_in_faces(img_path, face_boxes)
+
+    # 返回：人头数、每个人的疲劳检测结果字典、绘制框和ID的图像对象
+    return head_count, fatigue_results, img_with_boxes
+
+
+if __name__ == "__main__":
+    # 给定图像路径
+    img_path = "./HNU_Test/HNU7.jpg"
+
+    # 执行检测
+    head_count, fatigue_results, img_with_boxes = detect_faces_in_image(img_path)
+
+    # 输出检测结果
+    print(f"Detected {head_count} heads.")
+    print("Fatigue detection results:")
+    for person_id, fatigue_status in fatigue_results.items():
+        print(f"Person {person_id}: {fatigue_status}")
+
+    # 显示带有检测框和疲劳检测结果的图像
+    cv2.imshow("Fatigue Detection", img_with_boxes)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+    # 保存带框的图像
+    save_path = "./runs/test/sample_image_fatigue_detected.jpg"
+    cv2.imwrite(save_path, img_with_boxes)

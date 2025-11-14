@@ -1,0 +1,2595 @@
+{
+  "exportedAt": "2025-10-31T14:23:38.112Z",
+  "total": 72,
+  "images": [
+    {
+      "id": "CC/SEAL2021_test_000000020_p.jpg",
+      "name": "SEAL2021_test_000000020_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000020_p.jpg",
+      "annotated": true,
+      "groups": [
+        "太极信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_00000004_p.jpg",
+      "name": "SEAL2021_test_00000004_p.jpg",
+      "relPath": "CC/SEAL2021_test_00000004_p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000133_p.jpg",
+      "name": "SEAL2021_test_000000133_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000133_p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000139_p.jpg",
+      "name": "SEAL2021_test_000000139_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000139_p.jpg",
+      "annotated": true,
+      "groups": [
+        "国讯科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000208_p.jpg",
+      "name": "SEAL2021_test_000000208_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000208_p.jpg",
+      "annotated": true,
+      "groups": [
+        "迪摩网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000214_p.jpg",
+      "name": "SEAL2021_test_000000214_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000214_p.jpg",
+      "annotated": true,
+      "groups": [
+        "华泰通安科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000227_p.jpg",
+      "name": "SEAL2021_test_000000227_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000227_p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000310_p.jpg",
+      "name": "SEAL2021_test_000000310_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000310_p.jpg",
+      "annotated": true,
+      "groups": [
+        "富罳传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000319_p.jpg",
+      "name": "SEAL2021_test_000000319_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000319_p.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000373_p.jpg",
+      "name": "SEAL2021_test_000000373_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000373_p.jpg",
+      "annotated": true,
+      "groups": [
+        "联软科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000389_p.jpg",
+      "name": "SEAL2021_test_000000389_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000389_p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_test_000000395_p.jpg",
+      "name": "SEAL2021_test_000000395_p.jpg",
+      "relPath": "CC/SEAL2021_test_000000395_p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000021-p.jpg",
+      "name": "SEAL2021_train_00000021-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000021-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000028-p.jpg",
+      "name": "SEAL2021_train_00000028-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000028-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂哥信息网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000040-p.jpg",
+      "name": "SEAL2021_train_00000040-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000040-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创汇网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000059-p.jpg",
+      "name": "SEAL2021_train_00000059-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000059-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000066-p.jpg",
+      "name": "SEAL2021_train_00000066-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000066-p.jpg",
+      "annotated": true,
+      "groups": [
+        "凌云科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000070-p.jpg",
+      "name": "SEAL2021_train_00000070-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000070-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000079-p.jpg",
+      "name": "SEAL2021_train_00000079-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000079-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000087-p.jpg",
+      "name": "SEAL2021_train_00000087-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000087-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000093-p.jpg",
+      "name": "SEAL2021_train_00000093-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000093-p.jpg",
+      "annotated": true,
+      "groups": [
+        "黄石金承网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000113-p.jpg",
+      "name": "SEAL2021_train_00000113-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000113-p.jpg",
+      "annotated": true,
+      "groups": [
+        "惠派国际公司传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000114-p.jpg",
+      "name": "SEAL2021_train_00000114-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000114-p.jpg",
+      "annotated": true,
+      "groups": [
+        "南康信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000117-p.jpg",
+      "name": "SEAL2021_train_00000117-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000117-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创联世纪网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000119-p.jpg",
+      "name": "SEAL2021_train_00000119-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000119-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000130-p.jpg",
+      "name": "SEAL2021_train_00000130-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000130-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000146-p.jpg",
+      "name": "SEAL2021_train_00000146-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000146-p.jpg",
+      "annotated": true,
+      "groups": [
+        "南康信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000158-p.jpg",
+      "name": "SEAL2021_train_00000158-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000158-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000161-p.jpg",
+      "name": "SEAL2021_train_00000161-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000161-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昊嘉传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000178-p.jpg",
+      "name": "SEAL2021_train_00000178-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000178-p.jpg",
+      "annotated": true,
+      "groups": [
+        "华远软件科技有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000196-p.jpg",
+      "name": "SEAL2021_train_00000196-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000196-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂哥信息网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000222-p.jpg",
+      "name": "SEAL2021_train_00000222-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000222-p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000241-p.jpg",
+      "name": "SEAL2021_train_00000241-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000241-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂哥信息信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000245-p.jpg",
+      "name": "SEAL2021_train_00000245-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000245-p.jpg",
+      "annotated": true,
+      "groups": [
+        "昂哥信息信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000246-p.jpg",
+      "name": "SEAL2021_train_00000246-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000246-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000252-p.jpg",
+      "name": "SEAL2021_train_00000252-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000252-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000262-p.jpg",
+      "name": "SEAL2021_train_00000262-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000262-p.jpg",
+      "annotated": true,
+      "groups": [
+        "浙大万朋传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000272-p.jpg",
+      "name": "SEAL2021_train_00000272-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000272-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天益信息有限有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000278-p.jpg",
+      "name": "SEAL2021_train_00000278-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000278-p.jpg",
+      "annotated": true,
+      "groups": [
+        "维涛信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000293-p.jpg",
+      "name": "SEAL2021_train_00000293-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000293-p.jpg",
+      "annotated": true,
+      "groups": [
+        "富罳传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000314-p.jpg",
+      "name": "SEAL2021_train_00000314-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000314-p.jpg",
+      "annotated": true,
+      "groups": [
+        "银嘉信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000406-p.jpg",
+      "name": "SEAL2021_train_00000406-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000406-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000463-p.jpg",
+      "name": "SEAL2021_train_00000463-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000463-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000468-p.jpg",
+      "name": "SEAL2021_train_00000468-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000468-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新格林耐特信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000469-p.jpg",
+      "name": "SEAL2021_train_00000469-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000469-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000476-p.jpg",
+      "name": "SEAL2021_train_00000476-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000476-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000485-p.jpg",
+      "name": "SEAL2021_train_00000485-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000485-p.jpg",
+      "annotated": true,
+      "groups": [
+        "快讯网络有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000497-p.jpg",
+      "name": "SEAL2021_train_00000497-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000497-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天益信息有限有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000506-p.jpg",
+      "name": "SEAL2021_train_00000506-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000506-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000508-p.jpg",
+      "name": "SEAL2021_train_00000508-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000508-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000511-p.jpg",
+      "name": "SEAL2021_train_00000511-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000511-p.jpg",
+      "annotated": true,
+      "groups": [
+        "天开信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000525-p.jpg",
+      "name": "SEAL2021_train_00000525-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000525-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000527-p.jpg",
+      "name": "SEAL2021_train_00000527-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000527-p.jpg",
+      "annotated": true,
+      "groups": [
+        "商软冠联网络有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000547-p.jpg",
+      "name": "SEAL2021_train_00000547-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000547-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天信息有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000592-p.jpg",
+      "name": "SEAL2021_train_00000592-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000592-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺伊曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000599-p.jpg",
+      "name": "SEAL2021_train_00000599-p.jpg",
+      "relPath": "CC/SEAL2021_train_00000599-p.jpg",
+      "annotated": true,
+      "groups": [
+        "群英传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000700.jpg",
+      "name": "SEAL2021_train_00000700.jpg",
+      "relPath": "CC/SEAL2021_train_00000700.jpg",
+      "annotated": true,
+      "groups": [
+        "飞海科技网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000728.jpg",
+      "name": "SEAL2021_train_00000728.jpg",
+      "relPath": "CC/SEAL2021_train_00000728.jpg",
+      "annotated": true,
+      "groups": [
+        "襄樊地球村信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000740.jpg",
+      "name": "SEAL2021_train_00000740.jpg",
+      "relPath": "CC/SEAL2021_train_00000740.jpg",
+      "annotated": true,
+      "groups": [
+        "诺伊曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_train_00000750.jpg",
+      "name": "SEAL2021_train_00000750.jpg",
+      "relPath": "CC/SEAL2021_train_00000750.jpg",
+      "annotated": true,
+      "groups": [
+        "信诚致远传媒有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000002-p.jpg",
+      "name": "SEAL2021_val_00000002-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000002-p.jpg",
+      "annotated": true,
+      "groups": [
+        "飞利信信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000026-p.jpg",
+      "name": "SEAL2021_val_00000026-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000026-p.jpg",
+      "annotated": true,
+      "groups": [
+        "南康信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000035-p.jpg",
+      "name": "SEAL2021_val_00000035-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000035-p.jpg",
+      "annotated": true,
+      "groups": [
+        "新宇龙信息信息有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000038-p.jpg",
+      "name": "SEAL2021_val_00000038-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000038-p.jpg",
+      "annotated": true,
+      "groups": [
+        "网新恒天传媒有限公司_科研专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000049-p.jpg",
+      "name": "SEAL2021_val_00000049-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000049-p.jpg",
+      "annotated": true,
+      "groups": [
+        "立信电子信息有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000073-p.jpg",
+      "name": "SEAL2021_val_00000073-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000073-p.jpg",
+      "annotated": true,
+      "groups": [
+        "同兴万点科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000102-p.jpg",
+      "name": "SEAL2021_val_00000102-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000102-p.jpg",
+      "annotated": true,
+      "groups": [
+        "创汇网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000126-p.jpg",
+      "name": "SEAL2021_val_00000126-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000126-p.jpg",
+      "annotated": true,
+      "groups": [
+        "诺伊曼软件科技有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000132-p.jpg",
+      "name": "SEAL2021_val_00000132-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000132-p.jpg",
+      "annotated": true,
+      "groups": [
+        "联通时科科技有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000142-p.jpg",
+      "name": "SEAL2021_val_00000142-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000142-p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_用于研究"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000151-p.jpg",
+      "name": "SEAL2021_val_00000151-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000151-p.jpg",
+      "annotated": true,
+      "groups": [
+        "易动力传媒有限公司_研究专用"
+      ]
+    },
+    {
+      "id": "CC/SEAL2021_val_00000160-p.jpg",
+      "name": "SEAL2021_val_00000160-p.jpg",
+      "relPath": "CC/SEAL2021_val_00000160-p.jpg",
+      "annotated": true,
+      "groups": [
+        "双敏电子网络有限公司_用于研究"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "name": "元一网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_agobwdqd.png"
+      ]
+    },
+    {
+      "name": "昊嘉传媒有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ahkhdlzj.png",
+        "Fake/seal_contract_with_tfkljvwz.png",
+        "CC/SEAL2021_train_00000161-p.jpg"
+      ]
+    },
+    {
+      "name": "天行数据有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_aoryargd.png"
+      ]
+    },
+    {
+      "name": "链析无限网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_aozccuye.png"
+      ]
+    },
+    {
+      "name": "普朗克科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_apednrcj.png"
+      ]
+    },
+    {
+      "name": "创汇网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_apgiwkll.png",
+        "CC/SEAL2021_train_00000040-p.jpg",
+        "CC/SEAL2021_val_00000102-p.jpg"
+      ]
+    },
+    {
+      "name": "虚拟原力科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_apucqkhz.png"
+      ]
+    },
+    {
+      "name": "智动未来有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_aqjxaatp.png"
+      ]
+    },
+    {
+      "name": "迅捷科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_aqxciais.png"
+      ]
+    },
+    {
+      "name": "平行宇宙科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_arxmkujp.png"
+      ]
+    },
+    {
+      "name": "密盾科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_bcoqnguo.png"
+      ]
+    },
+    {
+      "name": "时间晶体科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_bkvztrau.png"
+      ]
+    },
+    {
+      "name": "弦论科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_bltvgxor.png",
+        "Fake/seal_contract_with_hsxbylqr.png"
+      ]
+    },
+    {
+      "name": "晶魄科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_bmjrkiew.png"
+      ]
+    },
+    {
+      "name": "无涯科技网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_bpehfixc.png"
+      ]
+    },
+    {
+      "name": "联通时科科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_bphjotgx.png",
+        "CC/SEAL2021_test_000000133_p.jpg",
+        "CC/SEAL2021_train_00000059-p.jpg",
+        "CC/SEAL2021_val_00000132-p.jpg"
+      ]
+    },
+    {
+      "name": "智动未来有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_btuzdkrl.png"
+      ]
+    },
+    {
+      "name": "异构计算科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_btvzywio.png",
+        "Fake/seal_contract_with_faihnbhk.png"
+      ]
+    },
+    {
+      "name": "智联空间网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_buugpzny.png"
+      ]
+    },
+    {
+      "name": "晶圆未来科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_cazzwpwi.png"
+      ]
+    },
+    {
+      "name": "新宇龙信息网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ccferzna.png"
+      ]
+    },
+    {
+      "name": "图灵矩阵网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ckkvsxcq.png"
+      ]
+    },
+    {
+      "name": "全域感知科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_ckqzgrit.png"
+      ]
+    },
+    {
+      "name": "云控物联科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_cpbuaklq.png"
+      ]
+    },
+    {
+      "name": "瞬息科技网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_cpvdsxnl.png"
+      ]
+    },
+    {
+      "name": "晶睿半导体有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_csavkakk.png"
+      ]
+    },
+    {
+      "name": "模因科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_dbdnrsis.png"
+      ]
+    },
+    {
+      "name": "数海航行网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_ddhsvbar.png"
+      ]
+    },
+    {
+      "name": "硅基智能有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_dgqoikmw.png"
+      ]
+    },
+    {
+      "name": "智境科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_dkbcsurz.png"
+      ]
+    },
+    {
+      "name": "矩阵生物科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_dlsnwabb.png"
+      ]
+    },
+    {
+      "name": "襄樊地球村传媒有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_dnuasdeu.png",
+        "CC/SEAL2021_test_00000004_p.jpg"
+      ]
+    },
+    {
+      "name": "模糊逻辑科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_dqdidlks.png"
+      ]
+    },
+    {
+      "name": "量未来算力科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_dqjdxlly.png"
+      ]
+    },
+    {
+      "name": "快讯网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_dvhoyjmx.png",
+        "CC/SEAL2021_train_00000070-p.jpg",
+        "CC/SEAL2021_train_00000485-p.jpg"
+      ]
+    },
+    {
+      "name": "超维互动科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_dyqpslzw.png"
+      ]
+    },
+    {
+      "name": "生命算法科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_eathaudc.png"
+      ]
+    },
+    {
+      "name": "量瀚纪网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ebztotto.png"
+      ]
+    },
+    {
+      "name": "聚变科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_eclfbnoz.png"
+      ]
+    },
+    {
+      "name": "硅基觉醒智能有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_eeyftloc.png"
+      ]
+    },
+    {
+      "name": "智微电子有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_ejumjsqn.png"
+      ]
+    },
+    {
+      "name": "熵减未来信息有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_enymuwyd.png"
+      ]
+    },
+    {
+      "name": "奇点科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_epgwwekv.png"
+      ]
+    },
+    {
+      "name": "图灵矩阵网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_eqbqzjpg.png"
+      ]
+    },
+    {
+      "name": "拓扑计算信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_esqmamra.png"
+      ]
+    },
+    {
+      "name": "穹界科技网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_etofzqsy.png"
+      ]
+    },
+    {
+      "name": "芯维度科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_ewalflgq.png"
+      ]
+    },
+    {
+      "name": "迅联科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_exfamgzn.png"
+      ]
+    },
+    {
+      "name": "格物智联网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_ezioinsk.png"
+      ]
+    },
+    {
+      "name": "昊嘉传媒有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_fbhsjidb.png",
+        "CC/SEAL2021_train_00000130-p.jpg"
+      ]
+    },
+    {
+      "name": "澄明数据网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ffziwtbn.png"
+      ]
+    },
+    {
+      "name": "量核科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_fisltthq.png"
+      ]
+    },
+    {
+      "name": "双敏电子网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_fmhdtyfe.png"
+      ]
+    },
+    {
+      "name": "澄明数据网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_fnqatayq.png"
+      ]
+    },
+    {
+      "name": "灵思科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_foswjask.png"
+      ]
+    },
+    {
+      "name": "涌现智能有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_fryidops.png"
+      ]
+    },
+    {
+      "name": "密界安全科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ftzmtdqu.png"
+      ]
+    },
+    {
+      "name": "量子纪元信息有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_fumopadw.png"
+      ]
+    },
+    {
+      "name": "绿色智造数据有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_fvjqbpcq.png"
+      ]
+    },
+    {
+      "name": "链析无限网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_fyncejox.png",
+        "Fake/seal_contract_with_gyftjejp.png"
+      ]
+    },
+    {
+      "name": "生科智能科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_fzmebawp.png"
+      ]
+    },
+    {
+      "name": "云析科技网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_gaayqzqs.png"
+      ]
+    },
+    {
+      "name": "云端思维科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_gcvwppeq.png"
+      ]
+    },
+    {
+      "name": "量子原力科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_geuqyexw.png"
+      ]
+    },
+    {
+      "name": "维旺明网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_gfsutsts.png"
+      ]
+    },
+    {
+      "name": "融合科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ggblpefr.png"
+      ]
+    },
+    {
+      "name": "无涯科技网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_gjvbvsgp.png"
+      ]
+    },
+    {
+      "name": "涌现信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_gkoztmhw.png"
+      ]
+    },
+    {
+      "name": "银嘉信息有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_gmmlznli.png",
+        "CC/SEAL2021_train_00000314-p.jpg"
+      ]
+    },
+    {
+      "name": "天开信息有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_gnoifrfk.png",
+        "CC/SEAL2021_train_00000506-p.jpg",
+        "CC/SEAL2021_train_00000508-p.jpg",
+        "CC/SEAL2021_train_00000511-p.jpg"
+      ]
+    },
+    {
+      "name": "链析无限网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_gopsiuwv.png"
+      ]
+    },
+    {
+      "name": "深境算法网络有限公司_财务部",
+      "members": [
+        "Fake/seal_contract_with_gqaollar.png"
+      ]
+    },
+    {
+      "name": "穹界科技网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_gswlwuxu.png"
+      ]
+    },
+    {
+      "name": "深境算法网络有限公司_法务部",
+      "members": [
+        "Fake/seal_contract_with_gtlkcync.png"
+      ]
+    },
+    {
+      "name": "易动力传媒有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_gudxcenz.png",
+        "CC/SEAL2021_val_00000151-p.jpg"
+      ]
+    },
+    {
+      "name": "数字孪生科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_gxibhqum.png"
+      ]
+    },
+    {
+      "name": "智疗科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_gymqudxs.png"
+      ]
+    },
+    {
+      "name": "生物量子科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_hhosxsqb.png"
+      ]
+    },
+    {
+      "name": "深境算法网络有限公司_法人专用",
+      "members": [
+        "Fake/seal_contract_with_hiwefthc.png"
+      ]
+    },
+    {
+      "name": "算映未来网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_hlycnltj.png"
+      ]
+    },
+    {
+      "name": "黄石金承网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_hmoinsfi.png",
+        "CC/SEAL2021_train_00000093-p.jpg"
+      ]
+    },
+    {
+      "name": "量子纪元信息有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_hrdvvpwr.png"
+      ]
+    },
+    {
+      "name": "数海航行网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ieellcgp.png"
+      ]
+    },
+    {
+      "name": "量子思维科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_iehglnzo.png"
+      ]
+    },
+    {
+      "name": "机器觉醒信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_iiguogcv.png"
+      ]
+    },
+    {
+      "name": "数字灵境智能科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ikwjpxtt.png"
+      ]
+    },
+    {
+      "name": "同兴万点科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_ioimczzw.png",
+        "CC/SEAL2021_val_00000073-p.jpg"
+      ]
+    },
+    {
+      "name": "矩阵量子科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ioypglcw.png"
+      ]
+    },
+    {
+      "name": "芯元科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_iqdnwfeb.png"
+      ]
+    },
+    {
+      "name": "密文科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_irqcnkrg.png"
+      ]
+    },
+    {
+      "name": "飞利信信息有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_isnbubxd.png",
+        "CC/SEAL2021_train_00000021-p.jpg",
+        "CC/SEAL2021_val_00000002-p.jpg"
+      ]
+    },
+    {
+      "name": "芯域科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_iuaqgnhr.png"
+      ]
+    },
+    {
+      "name": "昊嘉传媒有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ixotqnri.png",
+        "Fake/seal_contract_with_rlqusemj.png"
+      ]
+    },
+    {
+      "name": "云析科技网络有限公司_科学专用",
+      "members": [
+        "Fake/seal_contract_with_jafamngl.png"
+      ]
+    },
+    {
+      "name": "全息视界信息有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_jaijzwuf.png"
+      ]
+    },
+    {
+      "name": "华泰通安科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_jczqpxmy.png",
+        "CC/SEAL2021_test_000000214_p.jpg"
+      ]
+    },
+    {
+      "name": "分形智能科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_jhvstuuh.png"
+      ]
+    },
+    {
+      "name": "元脑信息科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_jhzaayuq.png"
+      ]
+    },
+    {
+      "name": "新宇龙信息网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_jjfzmivf.png"
+      ]
+    },
+    {
+      "name": "多维空间科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_jlatqzzj.png"
+      ]
+    },
+    {
+      "name": "智弦智能科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_jmedpept.png"
+      ]
+    },
+    {
+      "name": "图灵矩阵网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_jnulgmns.png"
+      ]
+    },
+    {
+      "name": "智城网络科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_jrltjpwh.png"
+      ]
+    },
+    {
+      "name": "经纬数科网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_jtwososg.png"
+      ]
+    },
+    {
+      "name": "无痕数据有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_jvquubki.png"
+      ]
+    },
+    {
+      "name": "天工境像网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_jvyybyze.png"
+      ]
+    },
+    {
+      "name": "深维科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_jwgptacz.png"
+      ]
+    },
+    {
+      "name": "南康信息有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_jyvgtxtl.png"
+      ]
+    },
+    {
+      "name": "灵犀科技网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_kahmdbhp.png"
+      ]
+    },
+    {
+      "name": "天益信息有限有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_kaxurqnk.png",
+        "CC/SEAL2021_train_00000272-p.jpg",
+        "CC/SEAL2021_train_00000497-p.jpg"
+      ]
+    },
+    {
+      "name": "矽能科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_kbzdozjn.png"
+      ]
+    },
+    {
+      "name": "智联空间网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_kduvlobz.png"
+      ]
+    },
+    {
+      "name": "涌现科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_kflmehsz.png"
+      ]
+    },
+    {
+      "name": "灵枢数据有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_kgauunes.png"
+      ]
+    },
+    {
+      "name": "量子维度科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_khnfdwbu.png"
+      ]
+    },
+    {
+      "name": "非线科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_kihsnyup.png"
+      ]
+    },
+    {
+      "name": "算映未来网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_kjmfbnlq.png"
+      ]
+    },
+    {
+      "name": "浦华众诚传媒有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_kllvpoco.png"
+      ]
+    },
+    {
+      "name": "维度跳跃科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_klonjpfs.png"
+      ]
+    },
+    {
+      "name": "灵犀科技网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_kmlccjfs.png",
+        "Fake/seal_contract_with_zvdkawby.png"
+      ]
+    },
+    {
+      "name": "光量子科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_knncewog.png"
+      ]
+    },
+    {
+      "name": "天衍智能有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_kpgjbydo.png"
+      ]
+    },
+    {
+      "name": "澄明数据网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_kuzkytrj.png"
+      ]
+    },
+    {
+      "name": "元域科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_kxqucsha.png"
+      ]
+    },
+    {
+      "name": "新格林耐特网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_kzoehmsd.png",
+        "CC/SEAL2021_test_000000227_p.jpg"
+      ]
+    },
+    {
+      "name": "信融通途网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_laqxdpdq.png",
+        "Fake/seal_contract_with_sytafhey.png"
+      ]
+    },
+    {
+      "name": "图灵矩阵网络有限公司_营运部",
+      "members": [
+        "Fake/seal_contract_with_lbqlxocz.png"
+      ]
+    },
+    {
+      "name": "全域感知互联科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_ljlckmjw.png"
+      ]
+    },
+    {
+      "name": "基因视界科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_lmacwuzz.png"
+      ]
+    },
+    {
+      "name": "混沌算力信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_lnafixlq.png"
+      ]
+    },
+    {
+      "name": "弦论科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_lnopofkf.png"
+      ]
+    },
+    {
+      "name": "天网科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_loggrvaw.png"
+      ]
+    },
+    {
+      "name": "永续能源有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_lowbjuje.png"
+      ]
+    },
+    {
+      "name": "深维智能科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_lqyltyeq.png"
+      ]
+    },
+    {
+      "name": "量子纪元科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_lrudxdbe.png"
+      ]
+    },
+    {
+      "name": "快讯网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_lslmskrl.png"
+      ]
+    },
+    {
+      "name": "慧机科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_luiwajtp.png"
+      ]
+    },
+    {
+      "name": "超维算法科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_lxpuvcvs.png"
+      ]
+    },
+    {
+      "name": "晖来计算机信息有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_lygqgvxg.png"
+      ]
+    },
+    {
+      "name": "昂哥信息科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_mmablkfp.png"
+      ]
+    },
+    {
+      "name": "晶元微信息科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_mmieelcn.png"
+      ]
+    },
+    {
+      "name": "工控智联科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_zcjwiztg.png",
+        "Fake/seal_contract_with_mqrmbklj.png"
+      ]
+    },
+    {
+      "name": "光量子能科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_mrmxjlgq.png"
+      ]
+    },
+    {
+      "name": "神谕智能科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_mscvmhvc.png"
+      ]
+    },
+    {
+      "name": "并行未来科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_mudigtsn.png"
+      ]
+    },
+    {
+      "name": "智量科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_mvdcarys.png"
+      ]
+    },
+    {
+      "name": "天工境像网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_mwmsnjke.png"
+      ]
+    },
+    {
+      "name": "虚数空间科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_mwxnbjnf.png"
+      ]
+    },
+    {
+      "name": "天穹云信息科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_myveeioq.png"
+      ]
+    },
+    {
+      "name": "元数科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_ncrkpsvj.png"
+      ]
+    },
+    {
+      "name": "量子矩阵科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ndqdqnxe.png"
+      ]
+    },
+    {
+      "name": "潮汐算力有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ndywpxnb.png"
+      ]
+    },
+    {
+      "name": "基因视界科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_nepgppdw.png"
+      ]
+    },
+    {
+      "name": "量子图腾信息科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_nhvzxvof.png"
+      ]
+    },
+    {
+      "name": "星链云信息科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_nkfuoroq.png"
+      ]
+    },
+    {
+      "name": "思维矩阵有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_nnumigge.png"
+      ]
+    },
+    {
+      "name": "格物智联网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_nqnqvtjf.png"
+      ]
+    },
+    {
+      "name": "戴硕电子网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_nqyxzjtn.png"
+      ]
+    },
+    {
+      "name": "中建创业传媒有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_nrdrxxbo.png"
+      ]
+    },
+    {
+      "name": "康元科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_nsqmnnak.png"
+      ]
+    },
+    {
+      "name": "深境算法网络有限公司_营运部",
+      "members": [
+        "Fake/seal_contract_with_oaqseqqb.png"
+      ]
+    },
+    {
+      "name": "国讯科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_oebnwqrg.png"
+      ]
+    },
+    {
+      "name": "暗物质信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ohuckagd.png"
+      ]
+    },
+    {
+      "name": "硅纪元信息科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ojdikjwm.png"
+      ]
+    },
+    {
+      "name": "超维计算科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_olkvkglt.png"
+      ]
+    },
+    {
+      "name": "鸿芯微科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_olnphkby.png"
+      ]
+    },
+    {
+      "name": "量子奇点科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_omaovtbw.png"
+      ]
+    },
+    {
+      "name": "元一网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_oqejzagn.png"
+      ]
+    },
+    {
+      "name": "菊风公司信息有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_orovomwa.png"
+      ]
+    },
+    {
+      "name": "弦论科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_osnihvzr.png"
+      ]
+    },
+    {
+      "name": "模因智能科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_oufwaqxm.png"
+      ]
+    },
+    {
+      "name": "量核计算网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ovrhltdf.png"
+      ]
+    },
+    {
+      "name": "智穹信息科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_pacbbash.png"
+      ]
+    },
+    {
+      "name": "信任引擎科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_pcmqwzvh.png"
+      ]
+    },
+    {
+      "name": "拓扑未来科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_pdcizriy.png"
+      ]
+    },
+    {
+      "name": "数智引擎有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_pklebouh.png"
+      ]
+    },
+    {
+      "name": "智城网络科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_pkzwueab.png",
+        "Fake/seal_contract_with_xxczuhgk.png"
+      ]
+    },
+    {
+      "name": "深境算法网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_pnbgrick.png"
+      ]
+    },
+    {
+      "name": "算映未来网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ppgbfkgv.png"
+      ]
+    },
+    {
+      "name": "创联世纪网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ppifeoky.png",
+        "CC/SEAL2021_train_00000117-p.jpg"
+      ]
+    },
+    {
+      "name": "穹界科技网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_pqjzpsru.png"
+      ]
+    },
+    {
+      "name": "锐芯科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_psajyucf.png"
+      ]
+    },
+    {
+      "name": "生命密码科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_psubjagy.png"
+      ]
+    },
+    {
+      "name": "生命解码科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_pyzzjdmg.png"
+      ]
+    },
+    {
+      "name": "新宇龙信息网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_qdqrtmju.png"
+      ]
+    },
+    {
+      "name": "神谕智能有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_qdwmkaqi.png"
+      ]
+    },
+    {
+      "name": "智控科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_qepwcczi.png"
+      ]
+    },
+    {
+      "name": "数字契约科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_qfpghplv.png"
+      ]
+    },
+    {
+      "name": "慧聚数据有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_qgmbtenu.png"
+      ]
+    },
+    {
+      "name": "零碳智能科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_qgmchhla.png"
+      ]
+    },
+    {
+      "name": "认知引擎科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_qokdputu.png"
+      ]
+    },
+    {
+      "name": "极盾安全科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_qpcfslqh.png"
+      ]
+    },
+    {
+      "name": "数境科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_qrxgwqlu.png"
+      ]
+    },
+    {
+      "name": "瞬息科技网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_qwieqloj.png"
+      ]
+    },
+    {
+      "name": "量子跃迁信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_qwzidlrx.png"
+      ]
+    },
+    {
+      "name": "华远软件科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_qypccbao.png",
+        "CC/SEAL2021_train_00000178-p.jpg"
+      ]
+    },
+    {
+      "name": "清洁核能能源有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_rdcpepif.png"
+      ]
+    },
+    {
+      "name": "深维智能科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_rfotgweh.png"
+      ]
+    },
+    {
+      "name": "精芯传媒有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_riqmvabp.png"
+      ]
+    },
+    {
+      "name": "昂哥信息网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_rlzzxmnm.png",
+        "CC/SEAL2021_train_00000028-p.jpg"
+      ]
+    },
+    {
+      "name": "反物质科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_rothkqfr.png"
+      ]
+    },
+    {
+      "name": "万物互联科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_rqvyfcle.png"
+      ]
+    },
+    {
+      "name": "智子科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_rsgddrwf.png"
+      ]
+    },
+    {
+      "name": "云盾科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_rsxessak.png"
+      ]
+    },
+    {
+      "name": "光子算力信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_rucdnvlq.png"
+      ]
+    },
+    {
+      "name": "元宇信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_sgfhlake.png"
+      ]
+    },
+    {
+      "name": "码力信息科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_sgmkhqtc.png"
+      ]
+    },
+    {
+      "name": "深境算法网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_sgrokzvk.png"
+      ]
+    },
+    {
+      "name": "弦科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_shrwvvqu.png"
+      ]
+    },
+    {
+      "name": "量子蓝图科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_skspkxkv.png"
+      ]
+    },
+    {
+      "name": "快讯网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_sktruusl.png",
+        "CC/SEAL2021_train_00000119-p.jpg"
+      ]
+    },
+    {
+      "name": "富罳传媒有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_stiupyxp.png"
+      ]
+    },
+    {
+      "name": "元宇科技信息有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_suaboitu.png"
+      ]
+    },
+    {
+      "name": "全域感知科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_suulwgca.png"
+      ]
+    },
+    {
+      "name": "灵境未来信息有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_svhppprj.png"
+      ]
+    },
+    {
+      "name": "奇核科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_swzjtyaq.png"
+      ]
+    },
+    {
+      "name": "信融通途网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_sxvyfwfv.png"
+      ]
+    },
+    {
+      "name": "芯维度信息科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_taebrakc.png"
+      ]
+    },
+    {
+      "name": "芯域信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_tbnhnbsz.png"
+      ]
+    },
+    {
+      "name": "太极信息有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_tgarqeqq.png",
+        "CC/SEAL2021_test_000000020_p.jpg"
+      ]
+    },
+    {
+      "name": "智能基因信息有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_tgzlyqwo.png"
+      ]
+    },
+    {
+      "name": "数海航行网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_thtqbtfx.png"
+      ]
+    },
+    {
+      "name": "虚界智能科技信息有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_tjenrhag.png"
+      ]
+    },
+    {
+      "name": "氢能未来科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_trzdxhgf.png"
+      ]
+    },
+    {
+      "name": "零碳动力有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_twygatko.png"
+      ]
+    },
+    {
+      "name": "算力图腾信息有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_twyunlft.png"
+      ]
+    },
+    {
+      "name": "区块原力科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_ujouolcz.png"
+      ]
+    },
+    {
+      "name": "天维科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ukxptxtw.png"
+      ]
+    },
+    {
+      "name": "反码科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ulssogca.png"
+      ]
+    },
+    {
+      "name": "数盾安防网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_umsoxlku.png"
+      ]
+    },
+    {
+      "name": "超弦科技信息有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_urfldnks.png"
+      ]
+    },
+    {
+      "name": "量子视界科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_urzeopnm.png"
+      ]
+    },
+    {
+      "name": "光刻未来科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_uvgjiyya.png"
+      ]
+    },
+    {
+      "name": "巨奥传媒有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_uyzjzcpc.png"
+      ]
+    },
+    {
+      "name": "云析科技网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_vcxlztsd.png"
+      ]
+    },
+    {
+      "name": "瞬息科技网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_vfrvqouh.png"
+      ]
+    },
+    {
+      "name": "全息纪元科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_vgllclqb.png"
+      ]
+    },
+    {
+      "name": "超弦科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_vgntoaeb.png"
+      ]
+    },
+    {
+      "name": "数境信息科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_vhqqwoqp.png"
+      ]
+    },
+    {
+      "name": "启明科技网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_vinxssba.png"
+      ]
+    },
+    {
+      "name": "未来机械科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_vkgxroyg.png"
+      ]
+    },
+    {
+      "name": "分形智能科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_vlrtpmzq.png",
+        "Fake/seal_contract_with_xzikrglz.png"
+      ]
+    },
+    {
+      "name": "智弦科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_vmbwfpaq.png"
+      ]
+    },
+    {
+      "name": "奇点智能科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_vowjpsss.png"
+      ]
+    },
+    {
+      "name": "全域感知科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_vqqzethd.png"
+      ]
+    },
+    {
+      "name": "维涛信息有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_vrkrkvca.png",
+        "CC/SEAL2021_train_00000278-p.jpg"
+      ]
+    },
+    {
+      "name": "东方骏景网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_vrzrnqhh.png"
+      ]
+    },
+    {
+      "name": "生物智元科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_vuqfkrrq.png"
+      ]
+    },
+    {
+      "name": "星瀚纪网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_vwtcjnah.png"
+      ]
+    },
+    {
+      "name": "超算未来科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_vxdvegmj.png"
+      ]
+    },
+    {
+      "name": "启明科技网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_vxmishyi.png"
+      ]
+    },
+    {
+      "name": "深境算法网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_waygipxi.png"
+      ]
+    },
+    {
+      "name": "纳米医工科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_wdvgeqeq.png"
+      ]
+    },
+    {
+      "name": "信诚志远科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_wehwgkjh.png"
+      ]
+    },
+    {
+      "name": "启明科技网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_wqwxfyye.png"
+      ]
+    },
+    {
+      "name": "晶核科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_wtiljvha.png"
+      ]
+    },
+    {
+      "name": "凌云科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_wxfzvcdf.png",
+        "CC/SEAL2021_test_00000004_p.jpg",
+        "CC/SEAL2021_train_00000066-p.jpg"
+      ]
+    },
+    {
+      "name": "易形智能科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_wyfatopr.png"
+      ]
+    },
+    {
+      "name": "边缘智能科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_xayvtmqw.png"
+      ]
+    },
+    {
+      "name": "生态算法科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_xejeefvy.png"
+      ]
+    },
+    {
+      "name": "极算科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_xjljjrzu.png"
+      ]
+    },
+    {
+      "name": "浙大万朋传媒有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_xqhtdtuh.png",
+        "CC/SEAL2021_train_00000262-p.jpg"
+      ]
+    },
+    {
+      "name": "合联电子科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_xsxcqkbo.png"
+      ]
+    },
+    {
+      "name": "飞利信科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_xuhbtwaz.png"
+      ]
+    },
+    {
+      "name": "量核计算网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_xxeumtcq.png"
+      ]
+    },
+    {
+      "name": "模因智能科技信息有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ybkydtso.png"
+      ]
+    },
+    {
+      "name": "数盾安防网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_yfhswosz.png"
+      ]
+    },
+    {
+      "name": "阈限科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ygdeaaxa.png"
+      ]
+    },
+    {
+      "name": "良诺网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_yhuomgbe.png"
+      ]
+    },
+    {
+      "name": "诺伊曼软件科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_yjniduao.png",
+        "CC/SEAL2021_train_00000592-p.jpg",
+        "CC/SEAL2021_train_00000740.jpg",
+        "CC/SEAL2021_val_00000126-p.jpg"
+      ]
+    },
+    {
+      "name": "创联软件科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_ymuzwjaq.png"
+      ]
+    },
+    {
+      "name": "共识算法科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_yobsdrrt.png"
+      ]
+    },
+    {
+      "name": "光储科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_yqqtlbil.png"
+      ]
+    },
+    {
+      "name": "链安科技有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_ysojsufn.png"
+      ]
+    },
+    {
+      "name": "量核计算网络有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_ywfbtjtf.png"
+      ]
+    },
+    {
+      "name": "群英传媒有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_zcjwiztg.png",
+        "CC/SEAL2021_train_00000222-p.jpg"
+      ]
+    },
+    {
+      "name": "艾提科信传媒有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_zefrlltl.png"
+      ]
+    },
+    {
+      "name": "经纬数科网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_zfcefblg.png"
+      ]
+    },
+    {
+      "name": "基因图腾科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_zfgbxtca.png"
+      ]
+    },
+    {
+      "name": "细胞未来生物医疗有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_zfnywcst.png"
+      ]
+    },
+    {
+      "name": "加密图腾数据有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_zhbvbzjr.png"
+      ]
+    },
+    {
+      "name": "飞海科技网络有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_zkqkardq.png",
+        "CC/SEAL2021_train_00000700.jpg"
+      ]
+    },
+    {
+      "name": "数盾科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_zlwrfnih.png"
+      ]
+    },
+    {
+      "name": "基因图腾生物科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_znipnxll.png"
+      ]
+    },
+    {
+      "name": "商软冠联网络有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_zpwdmdtv.png",
+        "CC/SEAL2021_train_00000527-p.jpg"
+      ]
+    },
+    {
+      "name": "芯擎科技有限公司_用于科研",
+      "members": [
+        "Fake/seal_contract_with_zridkkvj.png"
+      ]
+    },
+    {
+      "name": "网新恒天信息有限公司_科研专用",
+      "members": [
+        "Fake/seal_contract_with_zrsewicn.png",
+        "CC/SEAL2021_train_00000158-p.jpg",
+        "CC/SEAL2021_train_00000547-p.jpg"
+      ]
+    },
+    {
+      "name": "元界引擎科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_zsttdzhp.png"
+      ]
+    },
+    {
+      "name": "碳基未来科技有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_ztybtlts.png"
+      ]
+    },
+    {
+      "name": "鸿睿思博信息有限公司_用于研究",
+      "members": [
+        "Fake/seal_contract_with_zycbtlqp.png"
+      ]
+    },
+    {
+      "name": "量子芯科技有限公司_研究专用",
+      "members": [
+        "Fake/seal_contract_with_zzjnsqdk.png"
+      ]
+    },
+    {
+      "name": "国讯科技有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_test_000000139_p.jpg"
+      ]
+    },
+    {
+      "name": "迪摩网络有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_test_000000208_p.jpg"
+      ]
+    },
+    {
+      "name": "富罳传媒有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_test_000000310_p.jpg",
+        "CC/SEAL2021_train_00000293-p.jpg"
+      ]
+    },
+    {
+      "name": "襄樊地球村传媒有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_test_000000319_p.jpg"
+      ]
+    },
+    {
+      "name": "联软科技有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_test_000000373_p.jpg"
+      ]
+    },
+    {
+      "name": "天开传媒有限公司_科研专用",
+      "members": [
+        "CC/SEAL2021_test_000000389_p.jpg"
+      ]
+    },
+    {
+      "name": "双敏电子传媒有限公司_研究专用",
+      "members": [
+        "CC/SEAL2021_test_000000395_p.jpg"
+      ]
+    },
+    {
+      "name": "惠派国际公司传媒有限公司_科研专用",
+      "members": [
+        "CC/SEAL2021_train_00000079-p.jpg",
+        "CC/SEAL2021_train_00000113-p.jpg"
+      ]
+    },
+    {
+      "name": "新格林耐特传媒有限公司_研究专用",
+      "members": [
+        "CC/SEAL2021_train_00000087-p.jpg",
+        "CC/SEAL2021_train_00000246-p.jpg",
+        "CC/SEAL2021_train_00000252-p.jpg",
+        "CC/SEAL2021_train_00000406-p.jpg"
+      ]
+    },
+    {
+      "name": "南康信息有限公司_研究专用",
+      "members": [
+        "CC/SEAL2021_train_00000114-p.jpg",
+        "CC/SEAL2021_train_00000146-p.jpg",
+        "CC/SEAL2021_val_00000026-p.jpg"
+      ]
+    },
+    {
+      "name": "昂哥信息网络有限公司_研究专用",
+      "members": [
+        "CC/SEAL2021_train_00000196-p.jpg"
+      ]
+    },
+    {
+      "name": "昂哥信息信息有限公司_研究专用",
+      "members": [
+        "CC/SEAL2021_train_00000241-p.jpg",
+        "CC/SEAL2021_train_00000245-p.jpg"
+      ]
+    },
+    {
+      "name": "新格林耐特信息有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_train_00000463-p.jpg",
+        "CC/SEAL2021_train_00000468-p.jpg"
+      ]
+    },
+    {
+      "name": "商软冠联传媒有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_train_00000469-p.jpg",
+        "CC/SEAL2021_train_00000476-p.jpg"
+      ]
+    },
+    {
+      "name": "商软冠联科技有限公司_研究专用",
+      "members": [
+        "CC/SEAL2021_train_00000525-p.jpg"
+      ]
+    },
+    {
+      "name": "群英传媒有限公司_研究专用",
+      "members": [
+        "CC/SEAL2021_train_00000599-p.jpg"
+      ]
+    },
+    {
+      "name": "襄樊地球村信息有限公司_研究专用",
+      "members": [
+        "CC/SEAL2021_train_00000728.jpg"
+      ]
+    },
+    {
+      "name": "信诚致远传媒有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_train_00000750.jpg"
+      ]
+    },
+    {
+      "name": "新宇龙信息信息有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_val_00000035-p.jpg"
+      ]
+    },
+    {
+      "name": "网新恒天传媒有限公司_科研专用",
+      "members": [
+        "CC/SEAL2021_val_00000038-p.jpg"
+      ]
+    },
+    {
+      "name": "立信电子信息有限公司_研究专用",
+      "members": [
+        "CC/SEAL2021_val_00000049-p.jpg"
+      ]
+    },
+    {
+      "name": "双敏电子网络有限公司_用于研究",
+      "members": [
+        "CC/SEAL2021_val_00000142-p.jpg",
+        "CC/SEAL2021_val_00000160-p.jpg"
+      ]
+    }
+  ]
+}
